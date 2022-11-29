@@ -1,0 +1,205 @@
+<!DOCTYPE html><html lang="zh-CN"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta name="theme-color" content="#0078E7"><meta name="author" content="Warbin"><meta name="copyright" content="Warbin"><meta name="generator" content="Hexo 6.3.0"><meta name="theme" content="hexo-theme-yun"><title>Software Engineering of UML | 只因</title><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@900&amp;display=swap" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://fastly.jsdelivr.net/npm/star-markdown-css@0.4.1/dist/yun/yun-markdown.min.css"><link rel="stylesheet" href="https://fastly.jsdelivr.net/npm/prism-theme-vars/base.css"><script src="https://fastly.jsdelivr.net/npm/scrollreveal/dist/scrollreveal.min.js" defer></script><script>function initScrollReveal() {
+  [".post-card",".markdown-body img"].forEach((target)=> {
+    ScrollReveal().reveal(target);
+  })
+}
+document.addEventListener("DOMContentLoaded", initScrollReveal);
+document.addEventListener("pjax:success", initScrollReveal);
+</script><script src="https://fastly.jsdelivr.net/npm/pjax@latest/pjax.min.js" defer></script><script src="/js/pjax.js" defer type="module"></script><script src="https://fastly.jsdelivr.net/npm/vue@2.6.14"></script><link rel="icon" type="image/png" href="/icon.ico"><link rel="mask-icon" href="/icon.ico" color="#0078E7"><link rel="preload" href="/css/hexo-theme-yun.css" as="style"><link rel="prefetch" href="/js/sidebar.js" as="script"><link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin><link rel="preconnect" href="https://fastly.jsdelivr.net/npm/" crossorigin><script id="yun-config">
+    window.Yun = {}
+    window.CONFIG = {"hostname":"warbin-hub.github.io","root":"/","title":"照水冰如鉴","version":"1.10.9","mode":"auto","copycode":true,"page":{"isPost":true},"i18n":{"placeholder":"搜索...","empty":"找不到您查询的内容: ${query}","hits":"找到 ${hits} 条结果","hits_time":"找到 ${hits} 条结果（用时 ${time} 毫秒）"},"anonymous_image":"https://cdn.yunyoujun.cn/img/avatar/none.jpg","say":{"api":"https://el-bot-api.vercel.app/api/words/young"},"fireworks":{"colors":null},"vendors":{"host":"https://fastly.jsdelivr.net/npm/","darken":"https://fastly.jsdelivr.net/npm/darken@1.5.0"}};
+  </script><link rel="stylesheet" href="/css/hexo-theme-yun.css"><script src="/js/hexo-theme-yun.js" type="module"></script><link rel="alternate" href="/atom.xml" title="只因" type="application/atom+xml"><meta name="description" content="一、定义UML是Unified Model Language的缩写，中文是统一建模语言，是由一整套图表组成的标准化建模语言。 二、类型  UML图分为结构图和行为图。 结构图分为类图、轮廓图、组件图、组合结构图、对象图、部署图、包图。 行为图又分活动图、用例图、状态机图和交互图。 交互图又分为序列图、时序图、通讯图、交互概览图。    三、概览   图类型 UML类型 用处 版本    结构图 类">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Software Engineering of UML">
+<meta property="og:url" content="https://warbin-hub.github.io/2022/10/17/UML/index.html">
+<meta property="og:site_name" content="只因">
+<meta property="og:description" content="一、定义UML是Unified Model Language的缩写，中文是统一建模语言，是由一整套图表组成的标准化建模语言。 二、类型  UML图分为结构图和行为图。 结构图分为类图、轮廓图、组件图、组合结构图、对象图、部署图、包图。 行为图又分活动图、用例图、状态机图和交互图。 交互图又分为序列图、时序图、通讯图、交互概览图。    三、概览   图类型 UML类型 用处 版本    结构图 类">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20221017145530694.png">
+<meta property="article:published_time" content="2022-10-17T06:27:35.000Z">
+<meta property="article:modified_time" content="2022-10-17T07:39:31.523Z">
+<meta property="article:author" content="Warbin">
+<meta property="article:tag" content="Curriculum Software Engineering">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20221017145530694.png"><script>(function() {
+  if (CONFIG.mode !== 'auto') return
+  const prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches
+  const setting = localStorage.getItem('darken-mode') || 'auto'
+  if (setting === 'dark' || (prefersDark && setting !== 'light'))
+    document.documentElement.classList.toggle('dark', true)
+})()</script></head><body><script src="https://code.iconify.design/2/2.1.1/iconify.min.js"></script><script>// Define global variable
+IconifyProviders = {
+  // Empty prefix: overwrite default API provider configuration
+  '': {
+    // Use custom API first, use Iconify public API as backup
+    resources: [
+        'https://api.iconify.design',
+    ],
+    // Wait for 1 second before switching API hosts
+    rotate: 1000,
+  },
+};</script><script defer src="https://fastly.jsdelivr.net/npm/animejs@latest"></script><script defer src="/js/ui/fireworks.js" type="module"></script><canvas class="fireworks"></canvas><div class="container"><a class="sidebar-toggle hty-icon-button" id="menu-btn"><div class="hamburger hamburger--spin" type="button"><span class="hamburger-box"><span class="hamburger-inner"></span></span></div></a><div class="sidebar-toggle sidebar-overlay"></div><aside class="sidebar"><script src="/js/sidebar.js" type="module"></script><ul class="sidebar-nav"><li class="sidebar-nav-item sidebar-nav-toc hty-icon-button sidebar-nav-active" data-target="post-toc-wrap" title="文章目录"><span class="icon iconify" data-icon="ri:list-ordered"></span></li><li class="sidebar-nav-item sidebar-nav-overview hty-icon-button" data-target="site-overview-wrap" title="站点概览"><span class="icon iconify" data-icon="ri:passport-line"></span></li></ul><div class="sidebar-panel" id="site-overview-wrap"><div class="site-info fix-top"><a class="site-author-avatar" href="/about/" title="Warbin"><img width="96" loading="lazy" src="/head.jpg" alt="Warbin"><span class="site-author-status" title="略略略">😭</span></a><div class="site-author-name"><a href="/about/">Warbin</a></div><span class="site-name">只因</span><sub class="site-subtitle"></sub><div class="site-description"></div></div><nav class="site-state"><a class="site-state-item hty-icon-button icon-home" href="/" title="我的主页"><span class="site-state-item-icon"><span class="icon iconify" data-icon="ri:home-4-line"></span></span></a><div class="site-state-item"><a href="/archives/" title="归档"><span class="site-state-item-icon"><span class="icon iconify" data-icon="ri:archive-line"></span></span><span class="site-state-item-count">28</span></a></div><div class="site-state-item"><a href="/categories/" title="分类"><span class="site-state-item-icon"><span class="icon iconify" data-icon="ri:folder-2-line"></span></span><span class="site-state-item-count">9</span></a></div><div class="site-state-item"><a href="/tags/" title="标签"><span class="site-state-item-icon"><span class="icon iconify" data-icon="ri:price-tag-3-line"></span></span><span class="site-state-item-count">8</span></a></div><a class="site-state-item hty-icon-button" href="https://warbin-hub.github.io/" title="文档"><span class="site-state-item-icon"><span class="icon iconify" data-icon="ri:settings-line"></span></span></a></nav><hr style="margin-bottom:0.5rem"><br><a class="links-item hty-icon-button" id="toggle-mode-btn" href="javascript:;" title="Mode" style="color: #f1cb64"><span class="icon iconify" data-icon="ri:contrast-2-line"></span></a></div><div class="sidebar-panel sidebar-panel-active" id="post-toc-wrap"><div class="post-toc"><div class="post-toc-content"><ol class="toc"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%B8%80%E3%80%81%E5%AE%9A%E4%B9%89"><span class="toc-text">一、定义</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%BA%8C%E3%80%81%E7%B1%BB%E5%9E%8B"><span class="toc-text">二、类型</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%B8%89%E3%80%81%E6%A6%82%E8%A7%88"><span class="toc-text">三、概览</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%9B%9B%E3%80%81UML%E5%9B%BE"><span class="toc-text">四、UML图</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#1-%E7%B1%BB%E5%9B%BE"><span class="toc-text">1. 类图</span></a><ol class="toc-child"><li class="toc-item toc-level-5"><a class="toc-link" href="#1-1-%E6%A6%82%E5%BF%B5"><span class="toc-text">1.1 概念</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#1-2-%E7%9B%AE%E7%9A%84"><span class="toc-text">1.2 目的</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#1-3-%E5%B7%A5%E5%85%B7%E4%BB%8B%E7%BB%8D"><span class="toc-text">1.3 工具介绍</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#1-4-%E5%85%B3%E7%B3%BB%E4%BB%8B%E7%BB%8D"><span class="toc-text">1.4 关系介绍</span></a></li></ol></li><li class="toc-item toc-level-4"><a class="toc-link" href="#2-%E7%BB%84%E4%BB%B6%E5%9B%BE"><span class="toc-text">2. 组件图</span></a><ol class="toc-child"><li class="toc-item toc-level-5"><a class="toc-link" href="#2-1-%E6%A6%82%E5%BF%B5"><span class="toc-text">2.1 概念</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#2-2-%E7%9B%AE%E7%9A%84"><span class="toc-text">2.2 目的</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#2-3-%E5%B7%A5%E5%85%B7%E4%BB%8B%E7%BB%8D"><span class="toc-text">2.3 工具介绍</span></a></li></ol></li><li class="toc-item toc-level-4"><a class="toc-link" href="#3-%E5%AF%B9%E8%B1%A1%E5%9B%BE"><span class="toc-text">3. 对象图</span></a><ol class="toc-child"><li class="toc-item toc-level-5"><a class="toc-link" href="#3-1-%E6%A6%82%E5%BF%B5"><span class="toc-text">3.1 概念</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#3-2-%E7%9B%AE%E7%9A%84"><span class="toc-text">3.2 目的</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#3-3-%E5%B7%A5%E5%85%B7%E4%BB%8B%E7%BB%8D"><span class="toc-text">3.3 工具介绍</span></a></li></ol></li><li class="toc-item toc-level-4"><a class="toc-link" href="#4-%E8%BD%AE%E5%BB%93%E5%9B%BE"><span class="toc-text">4. 轮廓图</span></a><ol class="toc-child"><li class="toc-item toc-level-5"><a class="toc-link" href="#4-1-%E6%A6%82%E5%BF%B5"><span class="toc-text">4.1 概念</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#4-2-%E7%9B%AE%E7%9A%84"><span class="toc-text">4.2 目的</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#4-3-%E5%B7%A5%E5%85%B7%E4%BB%8B%E7%BB%8D"><span class="toc-text">4.3 工具介绍</span></a></li></ol></li><li class="toc-item toc-level-4"><a class="toc-link" href="#5-%E7%BB%84%E5%90%88%E7%BB%93%E6%9E%84%E5%9B%BE"><span class="toc-text">5. 组合结构图</span></a><ol class="toc-child"><li class="toc-item toc-level-5"><a class="toc-link" href="#5-1-%E6%A6%82%E5%BF%B5"><span class="toc-text">5.1 概念</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#5-2-%E7%9B%AE%E7%9A%84"><span class="toc-text">5.2 目的</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#5-3-%E5%B7%A5%E5%85%B7%E4%BB%8B%E7%BB%8D"><span class="toc-text">5.3 工具介绍</span></a></li></ol></li><li class="toc-item toc-level-4"><a class="toc-link" href="#6-%E9%83%A8%E7%BD%B2%E5%9B%BE"><span class="toc-text">6. 部署图</span></a><ol class="toc-child"><li class="toc-item toc-level-5"><a class="toc-link" href="#6-1-%E6%A6%82%E5%BF%B5"><span class="toc-text">6.1 概念</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#6-2-%E7%9B%AE%E7%9A%84"><span class="toc-text">6.2 目的</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#6-3-%E5%B7%A5%E5%85%B7%E4%BB%8B%E7%BB%8D"><span class="toc-text">6.3 工具介绍</span></a></li></ol></li><li class="toc-item toc-level-4"><a class="toc-link" href="#7-%E5%8C%85%E5%9B%BE"><span class="toc-text">7. 包图</span></a><ol class="toc-child"><li class="toc-item toc-level-5"><a class="toc-link" href="#7-1-%E6%A6%82%E5%BF%B5"><span class="toc-text">7.1 概念</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#7-2-%E7%9B%AE%E7%9A%84"><span class="toc-text">7.2 目的</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#7-3-%E5%B7%A5%E5%85%B7%E4%BB%8B%E7%BB%8D"><span class="toc-text">7.3 工具介绍</span></a></li></ol></li><li class="toc-item toc-level-4"><a class="toc-link" href="#8-%E7%94%A8%E4%BE%8B%E5%9B%BE"><span class="toc-text">8. 用例图</span></a><ol class="toc-child"><li class="toc-item toc-level-5"><a class="toc-link" href="#8-1-%E6%A6%82%E5%BF%B5"><span class="toc-text">8.1 概念</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#8-2-%E7%9B%AE%E7%9A%84"><span class="toc-text">8.2 目的</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#8-3-%E5%B7%A5%E5%85%B7%E4%BB%8B%E7%BB%8D"><span class="toc-text">8.3 工具介绍</span></a></li></ol></li><li class="toc-item toc-level-4"><a class="toc-link" href="#9-%E6%B4%BB%E5%8A%A8%E5%9B%BE"><span class="toc-text">9. 活动图</span></a><ol class="toc-child"><li class="toc-item toc-level-5"><a class="toc-link" href="#9-1-%E6%A6%82%E5%BF%B5"><span class="toc-text">9.1 概念</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#9-2-%E7%9B%AE%E7%9A%84"><span class="toc-text">9.2 目的</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#9-3-%E5%B7%A5%E5%85%B7%E4%BB%8B%E7%BB%8D"><span class="toc-text">9.3 工具介绍</span></a></li></ol></li><li class="toc-item toc-level-4"><a class="toc-link" href="#10-%E7%8A%B6%E6%80%81%E6%9C%BA%E5%9B%BE"><span class="toc-text">10. 状态机图</span></a><ol class="toc-child"><li class="toc-item toc-level-5"><a class="toc-link" href="#10-1-%E6%A6%82%E5%BF%B5"><span class="toc-text">10.1 概念</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#10-2-%E7%9B%AE%E7%9A%84"><span class="toc-text">10.2 目的</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#10-3-%E5%B7%A5%E5%85%B7%E4%BB%8B%E7%BB%8D"><span class="toc-text">10.3 工具介绍</span></a></li></ol></li><li class="toc-item toc-level-4"><a class="toc-link" href="#11-%E5%BA%8F%E5%88%97%E5%9B%BE"><span class="toc-text">11. 序列图</span></a><ol class="toc-child"><li class="toc-item toc-level-5"><a class="toc-link" href="#11-1-%E6%A6%82%E5%BF%B5"><span class="toc-text">11.1 概念</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#11-2-%E7%9B%AE%E7%9A%84"><span class="toc-text">11.2 目的</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#11-3-%E5%B7%A5%E5%85%B7%E4%BB%8B%E7%BB%8D"><span class="toc-text">11.3 工具介绍</span></a></li></ol></li><li class="toc-item toc-level-4"><a class="toc-link" href="#12-%E6%97%B6%E5%BA%8F%E5%9B%BE"><span class="toc-text">12. 时序图</span></a><ol class="toc-child"><li class="toc-item toc-level-5"><a class="toc-link" href="#12-1-%E6%A6%82%E5%BF%B5"><span class="toc-text">12.1 概念</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#12-2-%E7%9B%AE%E7%9A%84"><span class="toc-text">12.2 目的</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#12-3-%E5%B7%A5%E5%85%B7%E4%BB%8B%E7%BB%8D"><span class="toc-text">12.3 工具介绍</span></a></li></ol></li><li class="toc-item toc-level-4"><a class="toc-link" href="#13-%E4%BA%A4%E4%BA%92%E6%A6%82%E8%A7%88%E5%9B%BE"><span class="toc-text">13. 交互概览图</span></a><ol class="toc-child"><li class="toc-item toc-level-5"><a class="toc-link" href="#13-1-%E6%A6%82%E5%BF%B5"><span class="toc-text">13.1 概念</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#13-2-%E7%9B%AE%E7%9A%84"><span class="toc-text">13.2 目的</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#13-3-%E5%B7%A5%E5%85%B7%E4%BB%8B%E7%BB%8D"><span class="toc-text">13.3 工具介绍</span></a></li></ol></li><li class="toc-item toc-level-4"><a class="toc-link" href="#14-%E9%80%9A%E8%AE%AF%E5%9B%BE"><span class="toc-text">14. 通讯图</span></a><ol class="toc-child"><li class="toc-item toc-level-5"><a class="toc-link" href="#14-1-%E6%A6%82%E5%BF%B5"><span class="toc-text">14.1 概念</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#14-2-%E7%9B%AE%E7%9A%84"><span class="toc-text">14.2 目的</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#14-3-%E5%B7%A5%E5%85%B7%E4%BB%8B%E7%BB%8D"><span class="toc-text">14.3 工具介绍</span></a></li></ol></li></ol></li></ol></div></div></div></aside><main class="sidebar-translate" id="content"><div id="post"><article class="hty-card post-block" itemscope itemtype="https://schema.org/Article" style="--smc-primary:#0078E7;"><link itemprop="mainEntityOfPage" href="https://Warbin-Hub.github.io/2022/10/17/UML/"><span hidden itemprop="author" itemscope itemtype="https://schema.org/Person"><meta itemprop="name" content="Warbin"><meta itemprop="description"></span><span hidden itemprop="publisher" itemscope itemtype="https://schema.org/Organization"><meta itemprop="name" content="只因"></span><header class="post-header"><h1 class="post-title" itemprop="name headline">Software Engineering of UML</h1><div class="post-meta"><div class="post-time"><span class="post-meta-item-icon"><span class="icon iconify" data-icon="ri:calendar-line"></span></span> <time title="创建时间：2022-10-17 14:27:35" itemprop="dateCreated datePublished" datetime="2022-10-17T14:27:35+08:00">2022-10-17</time></div><div class="post-classify"><span class="post-category"> <span class="post-meta-item-icon" style="margin-right:3px;"><span class="icon iconify" data-icon="ri:folder-line"></span></span><span itemprop="about" itemscope itemtype="https://schema.org/Thing"><a class="category-item" href="/categories/notes/" style="--text-color:var(--hty-text-color)" itemprop="url" rel="index"><span itemprop="text">notes</span></a></span></span><span class="post-tag"><span class="post-meta-divider">-</span><a class="tag-item" href="/tags/Curriculum-Software-Engineering/" style="--text-color:var(--hty-text-color)"><span class="post-meta-item-icon"><span class="icon iconify" data-icon="ri:price-tag-3-line"></span></span><span class="tag-name">Curriculum Software Engineering</span></a></span></div></div></header><section class="post-body" itemprop="articleBody"><div class="post-content markdown-body"><h3 id="一、定义"><a href="#一、定义" class="headerlink" title="一、定义"></a>一、定义</h3><p><strong>UML</strong>是<strong>Unified Model Language</strong>的缩写，中文是<strong>统一建模语言</strong>，是由一整套图表组成的标准化建模语言。</p>
+<h3 id="二、类型"><a href="#二、类型" class="headerlink" title="二、类型"></a>二、类型</h3><blockquote>
+<ul>
+<li>UML图分为结构图和行为图。</li>
+<li>结构图分为类图、轮廓图、组件图、组合结构图、对象图、部署图、包图。</li>
+<li>行为图又分活动图、用例图、状态机图和交互图。</li>
+<li>交互图又分为序列图、时序图、通讯图、交互概览图。</li>
+</ul>
+</blockquote>
+<p><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20221017145530694.png" alt="image-20221017145530694" loading="lazy"></p>
+<h3 id="三、概览"><a href="#三、概览" class="headerlink" title="三、概览"></a>三、概览</h3><table>
+<thead>
+<tr>
+<th align="center">图类型</th>
+<th align="center">UML类型</th>
+<th align="center">用处</th>
+<th align="center">版本</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">结构图</td>
+<td align="center">类图</td>
+<td align="center">描述了系统中对象的类型以及它们之间存在的各种静态关系</td>
+<td align="center">UML 1.x</td>
+</tr>
+<tr>
+<td align="center">结构图</td>
+<td align="center">组件图</td>
+<td align="center">描绘了系统中组件提供的、需要的接口、端口等，以及它们之间的关系</td>
+<td align="center">UML 1.x，UML 2.0重新定义</td>
+</tr>
+<tr>
+<td align="center">结构图</td>
+<td align="center">对象图</td>
+<td align="center">对象图是类图的一个实例，是系统在某个时间点的详细状态的快照</td>
+<td align="center">UML 1.x</td>
+</tr>
+<tr>
+<td align="center">结构图</td>
+<td align="center">轮廓图</td>
+<td align="center">轮廓图提供了一种通用的扩展机制，用于为特定域和平台定制UML模型</td>
+<td align="center">UML 2.0</td>
+</tr>
+<tr>
+<td align="center">结构图</td>
+<td align="center">组合结构图</td>
+<td align="center">描述了一个“组合结构”的内部结构，以及他们之间的关系</td>
+<td align="center">UML 2.0</td>
+</tr>
+<tr>
+<td align="center">结构图</td>
+<td align="center">部署图</td>
+<td align="center">描述了系统内部的软件如何分布在不同的节点上</td>
+<td align="center">UML 1.x</td>
+</tr>
+<tr>
+<td align="center">结构图</td>
+<td align="center">包图</td>
+<td align="center">描绘了系统在包层面上的结构设计</td>
+<td align="center">UML 2.0</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">行为图</td>
+<td align="center">用例图</td>
+<td align="center">指由参与者、用例，边界以及它们之间的关系构成的用于描述系统功能的视图</td>
+<td align="center">UML 1.x</td>
+</tr>
+<tr>
+<td align="center">行为图</td>
+<td align="center">活动图</td>
+<td align="center">描述了具体业务用例的实现流程</td>
+<td align="center">UML 1.x</td>
+</tr>
+<tr>
+<td align="center">行为图</td>
+<td align="center">状态机图</td>
+<td align="center">描述了对象在它的整个生命周期里，响应不同事件时，执行相关事件的顺序</td>
+<td align="center">UML 1.x</td>
+</tr>
+<tr>
+<td align="center">交互图</td>
+<td align="center">序列图</td>
+<td align="center">描述了在用例的特定场景中，对象如何与其他对象交互</td>
+<td align="center">UML 1.x</td>
+</tr>
+<tr>
+<td align="center">交互图</td>
+<td align="center">时序图</td>
+<td align="center">时序图被用来显示随时间变化，一个或多个元素的值或状态的更改</td>
+<td align="center">UML 2.0</td>
+</tr>
+<tr>
+<td align="center">交互图</td>
+<td align="center">交互概览图</td>
+<td align="center">交互概览图与活动图类似，但是它的节点是交互图</td>
+<td align="center">UML 2.0</td>
+</tr>
+<tr>
+<td align="center">交互图</td>
+<td align="center">通讯图</td>
+<td align="center">描述了收发消息的对象的组织关系，强调对象之间的合作关系而不是时间顺序</td>
+<td align="center">UML 1.x叫协作图,UML 2.0改名</td>
+</tr>
+</tbody></table>
+<h3 id="四、UML图"><a href="#四、UML图" class="headerlink" title="四、UML图"></a>四、UML图</h3><h4 id="1-类图"><a href="#1-类图" class="headerlink" title="1. 类图"></a>1. 类图</h4><h5 id="1-1-概念"><a href="#1-1-概念" class="headerlink" title="1.1 概念"></a>1.1 概念</h5><p>类图是一切面向对象方法的核心建模工具。类图描述了系统中对象的类型以及它们之间存在的各种静态关系。</p>
+<h5 id="1-2-目的"><a href="#1-2-目的" class="headerlink" title="1.2 目的"></a>1.2 目的</h5><p>用来表示类、接口以及它们之间的静态结构和关系。</p>
+<h5 id="1-3-工具介绍"><a href="#1-3-工具介绍" class="headerlink" title="1.3 工具介绍"></a>1.3 工具介绍</h5><h5 id="1-4-关系介绍"><a href="#1-4-关系介绍" class="headerlink" title="1.4 关系介绍"></a>1.4 关系介绍</h5><h4 id="2-组件图"><a href="#2-组件图" class="headerlink" title="2. 组件图"></a>2. 组件图</h4><h5 id="2-1-概念"><a href="#2-1-概念" class="headerlink" title="2.1 概念"></a>2.1 概念</h5><p>描绘了系统中组件提供的、需要的接口、端口等，以及它们之间的关系。</p>
+<h5 id="2-2-目的"><a href="#2-2-目的" class="headerlink" title="2.2 目的"></a>2.2 目的</h5><p>用来展示各个组件之间的依赖关系。</p>
+<h5 id="2-3-工具介绍"><a href="#2-3-工具介绍" class="headerlink" title="2.3 工具介绍"></a>2.3 工具介绍</h5><h4 id="3-对象图"><a href="#3-对象图" class="headerlink" title="3. 对象图"></a>3. 对象图</h4><h5 id="3-1-概念"><a href="#3-1-概念" class="headerlink" title="3.1 概念"></a>3.1 概念</h5><p>对象图是类图的一个实例，是系统在某个时间点的详细状态的快照。</p>
+<h5 id="3-2-目的"><a href="#3-2-目的" class="headerlink" title="3.2 目的"></a>3.2 目的</h5><p>用来表示两个或者多个对象之间在某一时刻之间的关系。</p>
+<h5 id="3-3-工具介绍"><a href="#3-3-工具介绍" class="headerlink" title="3.3 工具介绍"></a>3.3 工具介绍</h5><h4 id="4-轮廓图"><a href="#4-轮廓图" class="headerlink" title="4. 轮廓图"></a>4. 轮廓图</h4><h5 id="4-1-概念"><a href="#4-1-概念" class="headerlink" title="4.1 概念"></a>4.1 概念</h5><p>轮廓图提供了一种通用的扩展机制，用于为特定域和平台定制UML模型。</p>
+<h5 id="4-2-目的"><a href="#4-2-目的" class="headerlink" title="4.2 目的"></a>4.2 目的</h5><p>用于在特定领域中构建UML模型。</p>
+<h5 id="4-3-工具介绍"><a href="#4-3-工具介绍" class="headerlink" title="4.3 工具介绍"></a>4.3 工具介绍</h5><h4 id="5-组合结构图"><a href="#5-组合结构图" class="headerlink" title="5. 组合结构图"></a>5. 组合结构图</h4><h5 id="5-1-概念"><a href="#5-1-概念" class="headerlink" title="5.1 概念"></a>5.1 概念</h5><p>描述了一个”组合结构”的内部结构，以及他们之间的关系。这个”组合结构”可以是系统的一部分，或者一个整体。</p>
+<h5 id="5-2-目的"><a href="#5-2-目的" class="headerlink" title="5.2 目的"></a>5.2 目的</h5><p>用来表示系统中逻辑上的”组合结构”。</p>
+<h5 id="5-3-工具介绍"><a href="#5-3-工具介绍" class="headerlink" title="5.3 工具介绍"></a>5.3 工具介绍</h5><h4 id="6-部署图"><a href="#6-部署图" class="headerlink" title="6. 部署图"></a>6. 部署图</h4><h5 id="6-1-概念"><a href="#6-1-概念" class="headerlink" title="6.1 概念"></a>6.1 概念</h5><p>描述了系统内部的软件如何分布在不同的节点上。</p>
+<h5 id="6-2-目的"><a href="#6-2-目的" class="headerlink" title="6.2 目的"></a>6.2 目的</h5><p>用来表示软件和硬件的映射关系。</p>
+<h5 id="6-3-工具介绍"><a href="#6-3-工具介绍" class="headerlink" title="6.3 工具介绍"></a>6.3 工具介绍</h5><h4 id="7-包图"><a href="#7-包图" class="headerlink" title="7. 包图"></a>7. 包图</h4><h5 id="7-1-概念"><a href="#7-1-概念" class="headerlink" title="7.1 概念"></a>7.1 概念</h5><p>描绘了系统在包层面上的结构设计。</p>
+<h5 id="7-2-目的"><a href="#7-2-目的" class="headerlink" title="7.2 目的"></a>7.2 目的</h5><p>用来表示包和包之间的依赖关系。</p>
+<h5 id="7-3-工具介绍"><a href="#7-3-工具介绍" class="headerlink" title="7.3 工具介绍"></a>7.3 工具介绍</h5><h4 id="8-用例图"><a href="#8-用例图" class="headerlink" title="8. 用例图"></a>8. 用例图</h4><h5 id="8-1-概念"><a href="#8-1-概念" class="headerlink" title="8.1 概念"></a>8.1 概念</h5><p>用例图是指由参与者、用例，边界以及它们之间的关系构成的用于描述系统功能的视图。</p>
+<h5 id="8-2-目的"><a href="#8-2-目的" class="headerlink" title="8.2 目的"></a>8.2 目的</h5><p>用来描述整个系统的功能。</p>
+<h5 id="8-3-工具介绍"><a href="#8-3-工具介绍" class="headerlink" title="8.3 工具介绍"></a>8.3 工具介绍</h5><h4 id="9-活动图"><a href="#9-活动图" class="headerlink" title="9. 活动图"></a>9. 活动图</h4><h5 id="9-1-概念"><a href="#9-1-概念" class="headerlink" title="9.1 概念"></a>9.1 概念</h5><p>描述了具体业务用例的实现流程。</p>
+<h5 id="9-2-目的"><a href="#9-2-目的" class="headerlink" title="9.2 目的"></a>9.2 目的</h5><p>用来表示用例实现的工作流程。</p>
+<h5 id="9-3-工具介绍"><a href="#9-3-工具介绍" class="headerlink" title="9.3 工具介绍"></a>9.3 工具介绍</h5><h4 id="10-状态机图"><a href="#10-状态机图" class="headerlink" title="10. 状态机图"></a>10. 状态机图</h4><h5 id="10-1-概念"><a href="#10-1-概念" class="headerlink" title="10.1 概念"></a>10.1 概念</h5><p>状态机图对一个单独对象的行为建模，指明对象在它的整个生命周期里，响应不同事件时，执行相关事件的顺序。</p>
+<h5 id="10-2-目的"><a href="#10-2-目的" class="headerlink" title="10.2 目的"></a>10.2 目的</h5><p>用来表示指定对象，在整个生命周期，响应不同事件的不同状态。</p>
+<h5 id="10-3-工具介绍"><a href="#10-3-工具介绍" class="headerlink" title="10.3 工具介绍"></a>10.3 工具介绍</h5><h4 id="11-序列图"><a href="#11-序列图" class="headerlink" title="11. 序列图"></a>11. 序列图</h4><h5 id="11-1-概念"><a href="#11-1-概念" class="headerlink" title="11.1 概念"></a>11.1 概念</h5><p>序列图根据时间序列展示对象如何进行协作。它展示了在用例的特定场景中，对象如何与其他对象交互。</p>
+<h5 id="11-2-目的"><a href="#11-2-目的" class="headerlink" title="11.2 目的"></a>11.2 目的</h5><p>通过描述对象之间发送消息的时间顺序显示多个对象之间的动态协作。</p>
+<h5 id="11-3-工具介绍"><a href="#11-3-工具介绍" class="headerlink" title="11.3 工具介绍"></a>11.3 工具介绍</h5><h4 id="12-时序图"><a href="#12-时序图" class="headerlink" title="12. 时序图"></a>12. 时序图</h4><h5 id="12-1-概念"><a href="#12-1-概念" class="headerlink" title="12.1 概念"></a>12.1 概念</h5><p>时序图被用来显示随时间变化，一个或多个元素的值或状态的更改。也显示时控事件之间的交互和管理它们的时间和期限约束。</p>
+<h5 id="12-2-目的"><a href="#12-2-目的" class="headerlink" title="12.2 目的"></a>12.2 目的</h5><p>用来表示元素状态或者值随时间的变化而变化的视图。</p>
+<h5 id="12-3-工具介绍"><a href="#12-3-工具介绍" class="headerlink" title="12.3 工具介绍"></a>12.3 工具介绍</h5><h4 id="13-交互概览图"><a href="#13-交互概览图" class="headerlink" title="13. 交互概览图"></a>13. 交互概览图</h4><h5 id="13-1-概念"><a href="#13-1-概念" class="headerlink" title="13.1 概念"></a>13.1 概念</h5><p>交互概览图与活动图类似，但是它的节点是交互图。</p>
+<h5 id="13-2-目的"><a href="#13-2-目的" class="headerlink" title="13.2 目的"></a>13.2 目的</h5><p>提供了控制流的概述。</p>
+<h5 id="13-3-工具介绍"><a href="#13-3-工具介绍" class="headerlink" title="13.3 工具介绍"></a>13.3 工具介绍</h5><h4 id="14-通讯图"><a href="#14-通讯图" class="headerlink" title="14. 通讯图"></a>14. 通讯图</h4><h5 id="14-1-概念"><a href="#14-1-概念" class="headerlink" title="14.1 概念"></a>14.1 概念</h5><p>描述了收发消息的对象的组织关系，强调对象之间的合作关系而不是时间顺序。</p>
+<h5 id="14-2-目的"><a href="#14-2-目的" class="headerlink" title="14.2 目的"></a>14.2 目的</h5><p>用来显示不同对象的关系。</p>
+<h5 id="14-3-工具介绍"><a href="#14-3-工具介绍" class="headerlink" title="14.3 工具介绍"></a>14.3 工具介绍</h5></div></section></article><div class="post-nav"><div class="post-nav-item"><a class="post-nav-prev" href="/2022/11/02/%E4%B8%AD%E5%9B%BD%E5%85%B1%E4%BA%A7%E5%85%9A%E7%AB%A0%E7%A8%8B%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%E7%9B%AE%E5%BD%95/" rel="prev" title="中国共产党章程学习笔记目录"><span class="icon iconify" data-icon="ri:arrow-left-s-line"></span><span class="post-nav-text">中国共产党章程学习笔记目录</span></a></div><div class="post-nav-item"><a class="post-nav-next" href="/2022/10/17/%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E7%9B%AE%E5%BD%95/" rel="next" title="Contents of Software Engineering"><span class="post-nav-text">Contents of Software Engineering</span><span class="icon iconify" data-icon="ri:arrow-right-s-line"></span></a></div></div></div><div class="hty-card" id="comment"></div></main><footer class="sidebar-translate" id="footer"><div class="copyright"><span>&copy; 2022 </span><span class="with-love" id="animate" title="欢迎"><span class="icon iconify" data-icon="ri:cloud-line"></span></span><span class="author"> Warbin</span></div><div class="live-time"><span>本博客已萌萌哒地运行</span><span id="display_live_time"></span><span class="moe-text">(●'◡'●)</span><script>function blog_live_time() {
+  setTimeout(blog_live_time, 1000);
+  const start = new Date('2022-10-11T22:24:00');
+  const now = new Date();
+  const timeDiff = (now.getTime() - start.getTime());
+  const msPerMinute = 60 * 1000;
+  const msPerHour = 60 * msPerMinute;
+  const msPerDay = 24 * msPerHour;
+  const passDay = Math.floor(timeDiff / msPerDay);
+  const passHour = Math.floor((timeDiff % msPerDay) / 60 / 60 / 1000);
+  const passMinute = Math.floor((timeDiff % msPerHour) / 60 / 1000);
+  const passSecond = Math.floor((timeDiff % msPerMinute) / 1000);
+  display_live_time.innerHTML = ` ${passDay} 天 ${passHour} 小时 ${passMinute} 分 ${passSecond} 秒`;
+}
+blog_live_time();
+</script></div></footer></div><a class="hty-icon-button" id="back-to-top" aria-label="back-to-top" href="#"><span class="icon iconify" data-icon="ri:arrow-up-s-line"></span><svg class="progress-circle-container" viewBox="0 0 100 100"><circle class="progress-circle" id="progressCircle" cx="50" cy="50" r="48" fill="none" stroke="#0078E7" stroke-width="2" stroke-linecap="round"></circle></svg></a><script>function initMourn() {
+  const date = new Date();
+  const today = (date.getMonth() + 1) + "-" + date.getDate()
+  const mourn_days = ["4-4","9-18"]
+  if (mourn_days.includes(today)) {
+    document.documentElement.style.filter = "grayscale(1)";
+  }
+}
+initMourn();</script><script src="https://fastly.jsdelivr.net/npm/medium-zoom@1.0.6/dist/medium-zoom.min.js"></script><script>const images = [...document.querySelectorAll('.markdown-body img')]
+mediumZoom(images)</script><style>.medium-zoom-image {
+  z-index: 99;
+}</style></body></html>

@@ -1,0 +1,277 @@
+<!DOCTYPE html><html lang="zh-CN"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta name="theme-color" content="#0078E7"><meta name="author" content="Warbin"><meta name="copyright" content="Warbin"><meta name="generator" content="Hexo 6.3.0"><meta name="theme" content="hexo-theme-yun"><title>Contents of Computer Network | 只因</title><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@900&amp;display=swap" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://fastly.jsdelivr.net/npm/star-markdown-css@0.4.1/dist/yun/yun-markdown.min.css"><link rel="stylesheet" href="https://fastly.jsdelivr.net/npm/prism-theme-vars/base.css"><script src="https://fastly.jsdelivr.net/npm/scrollreveal/dist/scrollreveal.min.js" defer></script><script>function initScrollReveal() {
+  [".post-card",".markdown-body img"].forEach((target)=> {
+    ScrollReveal().reveal(target);
+  })
+}
+document.addEventListener("DOMContentLoaded", initScrollReveal);
+document.addEventListener("pjax:success", initScrollReveal);
+</script><script src="https://fastly.jsdelivr.net/npm/pjax@latest/pjax.min.js" defer></script><script src="/js/pjax.js" defer type="module"></script><script src="https://fastly.jsdelivr.net/npm/vue@2.6.14"></script><link rel="icon" type="image/png" href="/icon.ico"><link rel="mask-icon" href="/icon.ico" color="#0078E7"><link rel="preload" href="/css/hexo-theme-yun.css" as="style"><link rel="prefetch" href="/js/sidebar.js" as="script"><link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin><link rel="preconnect" href="https://fastly.jsdelivr.net/npm/" crossorigin><script id="yun-config">
+    window.Yun = {}
+    window.CONFIG = {"hostname":"warbin-hub.github.io","root":"/","title":"照水冰如鉴","version":"1.10.9","mode":"auto","copycode":true,"page":{"isPost":true},"i18n":{"placeholder":"搜索...","empty":"找不到您查询的内容: ${query}","hits":"找到 ${hits} 条结果","hits_time":"找到 ${hits} 条结果（用时 ${time} 毫秒）"},"anonymous_image":"https://cdn.yunyoujun.cn/img/avatar/none.jpg","say":{"api":"https://el-bot-api.vercel.app/api/words/young"},"fireworks":{"colors":null},"vendors":{"host":"https://fastly.jsdelivr.net/npm/","darken":"https://fastly.jsdelivr.net/npm/darken@1.5.0"}};
+  </script><link rel="stylesheet" href="/css/hexo-theme-yun.css"><script src="/js/hexo-theme-yun.js" type="module"></script><link rel="alternate" href="/atom.xml" title="只因" type="application/atom+xml"><meta name="description" content="一、说明本目录是我考研计算机网络具体笔记博客的一个导向目录。 二、目录链接第一章 计算机网络概述1.1 计算机网络中在信息时代的作用 1.2 因特网概述  网络、互联网和因特网 因特网发展的三个阶段 因特网的标准化工作 因特网的组成  1.3 三种交换方式  电路交换 分组交换 报文交换 三种交换对比 优缺点对比  1.4 计算机网络的定义和分类  定义 分类  1.5 计算机网络中的性能指标">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Contents of Computer Network">
+<meta property="og:url" content="https://warbin-hub.github.io/2022/10/14/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%E7%9B%AE%E5%BD%95/index.html">
+<meta property="og:site_name" content="只因">
+<meta property="og:description" content="一、说明本目录是我考研计算机网络具体笔记博客的一个导向目录。 二、目录链接第一章 计算机网络概述1.1 计算机网络中在信息时代的作用 1.2 因特网概述  网络、互联网和因特网 因特网发展的三个阶段 因特网的标准化工作 因特网的组成  1.3 三种交换方式  电路交换 分组交换 报文交换 三种交换对比 优缺点对比  1.4 计算机网络的定义和分类  定义 分类  1.5 计算机网络中的性能指标">
+<meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2022-10-13T18:32:43.000Z">
+<meta property="article:modified_time" content="2022-10-13T20:28:39.268Z">
+<meta property="article:author" content="Warbin">
+<meta property="article:tag" content="postgraduate">
+<meta name="twitter:card" content="summary"><script>(function() {
+  if (CONFIG.mode !== 'auto') return
+  const prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches
+  const setting = localStorage.getItem('darken-mode') || 'auto'
+  if (setting === 'dark' || (prefersDark && setting !== 'light'))
+    document.documentElement.classList.toggle('dark', true)
+})()</script></head><body><script src="https://code.iconify.design/2/2.1.1/iconify.min.js"></script><script>// Define global variable
+IconifyProviders = {
+  // Empty prefix: overwrite default API provider configuration
+  '': {
+    // Use custom API first, use Iconify public API as backup
+    resources: [
+        'https://api.iconify.design',
+    ],
+    // Wait for 1 second before switching API hosts
+    rotate: 1000,
+  },
+};</script><script defer src="https://fastly.jsdelivr.net/npm/animejs@latest"></script><script defer src="/js/ui/fireworks.js" type="module"></script><canvas class="fireworks"></canvas><div class="container"><a class="sidebar-toggle hty-icon-button" id="menu-btn"><div class="hamburger hamburger--spin" type="button"><span class="hamburger-box"><span class="hamburger-inner"></span></span></div></a><div class="sidebar-toggle sidebar-overlay"></div><aside class="sidebar"><script src="/js/sidebar.js" type="module"></script><ul class="sidebar-nav"><li class="sidebar-nav-item sidebar-nav-toc hty-icon-button sidebar-nav-active" data-target="post-toc-wrap" title="文章目录"><span class="icon iconify" data-icon="ri:list-ordered"></span></li><li class="sidebar-nav-item sidebar-nav-overview hty-icon-button" data-target="site-overview-wrap" title="站点概览"><span class="icon iconify" data-icon="ri:passport-line"></span></li></ul><div class="sidebar-panel" id="site-overview-wrap"><div class="site-info fix-top"><a class="site-author-avatar" href="/about/" title="Warbin"><img width="96" loading="lazy" src="/head.jpg" alt="Warbin"><span class="site-author-status" title="略略略">😭</span></a><div class="site-author-name"><a href="/about/">Warbin</a></div><span class="site-name">只因</span><sub class="site-subtitle"></sub><div class="site-description"></div></div><nav class="site-state"><a class="site-state-item hty-icon-button icon-home" href="/" title="我的主页"><span class="site-state-item-icon"><span class="icon iconify" data-icon="ri:home-4-line"></span></span></a><div class="site-state-item"><a href="/archives/" title="归档"><span class="site-state-item-icon"><span class="icon iconify" data-icon="ri:archive-line"></span></span><span class="site-state-item-count">28</span></a></div><div class="site-state-item"><a href="/categories/" title="分类"><span class="site-state-item-icon"><span class="icon iconify" data-icon="ri:folder-2-line"></span></span><span class="site-state-item-count">9</span></a></div><div class="site-state-item"><a href="/tags/" title="标签"><span class="site-state-item-icon"><span class="icon iconify" data-icon="ri:price-tag-3-line"></span></span><span class="site-state-item-count">8</span></a></div><a class="site-state-item hty-icon-button" href="https://warbin-hub.github.io/" title="文档"><span class="site-state-item-icon"><span class="icon iconify" data-icon="ri:settings-line"></span></span></a></nav><hr style="margin-bottom:0.5rem"><br><a class="links-item hty-icon-button" id="toggle-mode-btn" href="javascript:;" title="Mode" style="color: #f1cb64"><span class="icon iconify" data-icon="ri:contrast-2-line"></span></a></div><div class="sidebar-panel sidebar-panel-active" id="post-toc-wrap"><div class="post-toc"><div class="post-toc-content"><ol class="toc"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%B8%80%E3%80%81%E8%AF%B4%E6%98%8E"><span class="toc-text">一、说明</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%BA%8C%E3%80%81%E7%9B%AE%E5%BD%95%E9%93%BE%E6%8E%A5"><span class="toc-text">二、目录链接</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E7%AC%AC%E4%B8%80%E7%AB%A0-%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%E6%A6%82%E8%BF%B0"><span class="toc-text">第一章 计算机网络概述</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E7%AC%AC%E4%BA%8C%E7%AB%A0-%E7%89%A9%E7%90%86%E5%B1%82"><span class="toc-text">第二章 物理层</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E7%AC%AC%E4%B8%89%E7%AB%A0-%E6%95%B0%E6%8D%AE%E9%93%BE%E8%B7%AF%E5%B1%82"><span class="toc-text">第三章 数据链路层</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E7%AC%AC%E5%9B%9B%E7%AB%A0-%E7%BD%91%E7%BB%9C%E5%B1%82"><span class="toc-text">第四章 网络层</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E7%AC%AC%E4%BA%94%E7%AB%A0-%E8%BF%90%E8%BE%93%E5%B1%82"><span class="toc-text">第五章 运输层</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E7%AC%AC%E5%85%AD%E7%AB%A0-%E5%BA%94%E7%94%A8%E5%B1%82"><span class="toc-text">第六章 应用层</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E7%AC%AC%E4%B8%83%E7%AB%A0-%E7%BD%91%E7%BB%9C%E5%AE%89%E5%85%A8"><span class="toc-text">第七章 网络安全</span></a></li></ol></li></ol></div></div></div></aside><main class="sidebar-translate" id="content"><div id="post"><article class="hty-card post-block" itemscope itemtype="https://schema.org/Article" style="--smc-primary:#0078E7;"><link itemprop="mainEntityOfPage" href="https://Warbin-Hub.github.io/2022/10/14/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%E7%9B%AE%E5%BD%95/"><span hidden itemprop="author" itemscope itemtype="https://schema.org/Person"><meta itemprop="name" content="Warbin"><meta itemprop="description"></span><span hidden itemprop="publisher" itemscope itemtype="https://schema.org/Organization"><meta itemprop="name" content="只因"></span><header class="post-header"><h1 class="post-title" itemprop="name headline">Contents of Computer Network</h1><div class="post-meta"><div class="post-time"><span class="post-meta-item-icon"><span class="icon iconify" data-icon="ri:calendar-line"></span></span> <time title="创建时间：2022-10-14 02:32:43" itemprop="dateCreated datePublished" datetime="2022-10-14T02:32:43+08:00">2022-10-14</time></div><div class="post-classify"><span class="post-category"> <span class="post-meta-item-icon" style="margin-right:3px;"><span class="icon iconify" data-icon="ri:folder-line"></span></span><span itemprop="about" itemscope itemtype="https://schema.org/Thing"><a class="category-item" href="/categories/catalogue/" style="--text-color:var(--hty-text-color)" itemprop="url" rel="index"><span itemprop="text">catalogue</span></a></span></span><span class="post-tag"><span class="post-meta-divider">-</span><a class="tag-item" href="/tags/postgraduate/" style="--text-color:var(--hty-text-color)"><span class="post-meta-item-icon"><span class="icon iconify" data-icon="ri:price-tag-3-line"></span></span><span class="tag-name">postgraduate</span></a></span></div></div></header><section class="post-body" itemprop="articleBody"><div class="post-content markdown-body"><h3 id="一、说明"><a href="#一、说明" class="headerlink" title="一、说明"></a>一、说明</h3><p>本目录是我考研计算机网络具体笔记博客的一个导向目录。</p>
+<h3 id="二、目录链接"><a href="#二、目录链接" class="headerlink" title="二、目录链接"></a>二、目录链接</h3><h4 id="第一章-计算机网络概述"><a href="#第一章-计算机网络概述" class="headerlink" title="第一章 计算机网络概述"></a>第一章 计算机网络概述</h4><p>1.1 <a href="/2022/10/13/%E8%BF%98%E6%B2%A1%E5%86%99%E5%91%A2/" title="Advanced Mathematics">计算机网络中在信息时代的作用</a></p>
+<p>1.2 <a href="/2022/10/13/%E8%BF%98%E6%B2%A1%E5%86%99%E5%91%A2/" title="Advanced Mathematics">因特网概述</a></p>
+<ul>
+<li><a href="/2022/10/13/%E8%BF%98%E6%B2%A1%E5%86%99%E5%91%A2/" title="Advanced Mathematics">网络、互联网和因特网</a></li>
+<li><a href="/2022/10/13/%E8%BF%98%E6%B2%A1%E5%86%99%E5%91%A2/" title="Advanced Mathematics">因特网发展的三个阶段</a></li>
+<li><a href="/2022/10/13/%E8%BF%98%E6%B2%A1%E5%86%99%E5%91%A2/" title="Advanced Mathematics">因特网的标准化工作</a></li>
+<li><a href="/2022/10/13/%E8%BF%98%E6%B2%A1%E5%86%99%E5%91%A2/" title="Advanced Mathematics">因特网的组成</a></li>
+</ul>
+<p>1.3 <a href="/2022/10/13/%E8%BF%98%E6%B2%A1%E5%86%99%E5%91%A2/" title="Advanced Mathematics">三种交换方式</a></p>
+<ul>
+<li><a href="/2022/10/13/%E8%BF%98%E6%B2%A1%E5%86%99%E5%91%A2/" title="Advanced Mathematics">电路交换</a></li>
+<li><a href="/2022/10/13/%E8%BF%98%E6%B2%A1%E5%86%99%E5%91%A2/" title="Advanced Mathematics">分组交换</a></li>
+<li><a href="/2022/10/13/%E8%BF%98%E6%B2%A1%E5%86%99%E5%91%A2/" title="Advanced Mathematics">报文交换</a></li>
+<li><a href="/2022/10/13/%E8%BF%98%E6%B2%A1%E5%86%99%E5%91%A2/" title="Advanced Mathematics">三种交换对比</a></li>
+<li><a href="/2022/10/13/%E8%BF%98%E6%B2%A1%E5%86%99%E5%91%A2/" title="Advanced Mathematics">优缺点对比</a></li>
+</ul>
+<p>1.4 <a href="/2022/10/13/%E8%BF%98%E6%B2%A1%E5%86%99%E5%91%A2/" title="Advanced Mathematics">计算机网络的定义和分类</a></p>
+<ul>
+<li><a href="/2022/10/13/%E8%BF%98%E6%B2%A1%E5%86%99%E5%91%A2/" title="Advanced Mathematics">定义</a></li>
+<li><a href="/2022/10/13/%E8%BF%98%E6%B2%A1%E5%86%99%E5%91%A2/" title="Advanced Mathematics">分类</a></li>
+</ul>
+<p>1.5 <a href="/2022/10/13/%E8%BF%98%E6%B2%A1%E5%86%99%E5%91%A2/" title="Advanced Mathematics">计算机网络中的性能指标</a></p>
+<ul>
+<li><a href="/2022/10/13/%E8%BF%98%E6%B2%A1%E5%86%99%E5%91%A2/" title="Advanced Mathematics">速率</a></li>
+<li><a href="/2022/10/13/%E8%BF%98%E6%B2%A1%E5%86%99%E5%91%A2/" title="Advanced Mathematics">带宽</a></li>
+<li><a href="/2022/10/13/%E8%BF%98%E6%B2%A1%E5%86%99%E5%91%A2/" title="Advanced Mathematics">吞吐量</a></li>
+<li><a href="/2022/10/13/%E8%BF%98%E6%B2%A1%E5%86%99%E5%91%A2/" title="Advanced Mathematics">时延</a></li>
+<li><a href="/2022/10/13/%E8%BF%98%E6%B2%A1%E5%86%99%E5%91%A2/" title="Advanced Mathematics">时延宽带积</a></li>
+<li><a href="/2022/10/13/%E8%BF%98%E6%B2%A1%E5%86%99%E5%91%A2/" title="Advanced Mathematics">往返时间RTT限</a></li>
+<li><a href="/2022/10/13/%E8%BF%98%E6%B2%A1%E5%86%99%E5%91%A2/" title="Advanced Mathematics">利用率</a></li>
+<li><a href="/2022/10/13/%E8%BF%98%E6%B2%A1%E5%86%99%E5%91%A2/" title="Advanced Mathematics">丢包率</a></li>
+</ul>
+<p>1.6 <a href="/2022/10/13/%E8%BF%98%E6%B2%A1%E5%86%99%E5%91%A2/" title="Advanced Mathematics">计算机网络体系结构</a></p>
+<ul>
+<li><a href="/2022/10/13/%E8%BF%98%E6%B2%A1%E5%86%99%E5%91%A2/" title="Advanced Mathematics">常见的计算机网络体系结构</a></li>
+<li><a href="/2022/10/13/%E8%BF%98%E6%B2%A1%E5%86%99%E5%91%A2/" title="Advanced Mathematics">计算机网络结构分层的必要性</a></li>
+<li><a href="/2022/10/13/%E8%BF%98%E6%B2%A1%E5%86%99%E5%91%A2/" title="Advanced Mathematics">计算机网络体系结构分层思想举例</a></li>
+<li><a href="/2022/10/13/%E8%BF%98%E6%B2%A1%E5%86%99%E5%91%A2/" title="Advanced Mathematics">计算机网络体系结构中的术语</a></li>
+</ul>
+<h4 id="第二章-物理层"><a href="#第二章-物理层" class="headerlink" title="第二章 物理层"></a>第二章 物理层</h4><p>2.1 <a href="/2022/10/13/%E8%BF%98%E6%B2%A1%E5%86%99%E5%91%A2/" title="Advanced Mathematics">物理层的基本概念</a></p>
+<ul>
+<li><a href="/2022/10/13/%E8%BF%98%E6%B2%A1%E5%86%99%E5%91%A2/" title="Advanced Mathematics">概述</a></li>
+<li><a href="/2022/10/13/%E8%BF%98%E6%B2%A1%E5%86%99%E5%91%A2/" title="Advanced Mathematics">物理层协议的主要任务</a></li>
+</ul>
+<p>2.2 <a href="/2022/10/13/%E8%BF%98%E6%B2%A1%E5%86%99%E5%91%A2/" title="Advanced Mathematics">物理层下面的传输媒体</a></p>
+<ul>
+<li><a href="/2022/10/13/%E8%BF%98%E6%B2%A1%E5%86%99%E5%91%A2/" title="Advanced Mathematics">导引型传输媒体</a></li>
+<li><a href="/2022/10/13/%E8%BF%98%E6%B2%A1%E5%86%99%E5%91%A2/" title="Advanced Mathematics">非导引型传输媒体</a></li>
+<li><a href="/2022/10/13/%E8%BF%98%E6%B2%A1%E5%86%99%E5%91%A2/" title="Advanced Mathematics">无线电频谱管理机构</a></li>
+</ul>
+<p>2.3 <a href="/2022/10/13/%E8%BF%98%E6%B2%A1%E5%86%99%E5%91%A2/" title="Advanced Mathematics">传输方式</a></p>
+<ul>
+<li><a href="/2022/10/13/%E8%BF%98%E6%B2%A1%E5%86%99%E5%91%A2/" title="Advanced Mathematics">串行传输和并行传输</a></li>
+<li><a href="/2022/10/13/%E8%BF%98%E6%B2%A1%E5%86%99%E5%91%A2/" title="Advanced Mathematics">同步传输和异步传输</a></li>
+<li><a href="/2022/10/13/%E8%BF%98%E6%B2%A1%E5%86%99%E5%91%A2/" title="Advanced Mathematics">单工、半双工、全双通信</a></li>
+</ul>
+<p>2.4 <a href="/2022/10/13/%E8%BF%98%E6%B2%A1%E5%86%99%E5%91%A2/" title="Advanced Mathematics">编码与调制</a></p>
+<ul>
+<li><a href="/2022/10/13/%E8%BF%98%E6%B2%A1%E5%86%99%E5%91%A2/" title="Advanced Mathematics">编码</a></li>
+<li><a href="/2022/10/13/%E8%BF%98%E6%B2%A1%E5%86%99%E5%91%A2/" title="Advanced Mathematics">调制</a></li>
+<li><a href="/2022/10/13/%E8%BF%98%E6%B2%A1%E5%86%99%E5%91%A2/" title="Advanced Mathematics">常用编码</a></li>
+<li><a href="/2022/10/13/%E8%BF%98%E6%B2%A1%E5%86%99%E5%91%A2/" title="Advanced Mathematics">基本调制方法</a></li>
+<li><a href="/2022/10/13/%E8%BF%98%E6%B2%A1%E5%86%99%E5%91%A2/" title="Advanced Mathematics">混合调制</a></li>
+</ul>
+<p>2.5 <a href="/2022/10/13/%E8%BF%98%E6%B2%A1%E5%86%99%E5%91%A2/" title="Advanced Mathematics">信道的极限容量</a></p>
+<ul>
+<li><a href="/2022/10/13/%E8%BF%98%E6%B2%A1%E5%86%99%E5%91%A2/" title="Advanced Mathematics">概述</a></li>
+<li><a href="/2022/10/13/%E8%BF%98%E6%B2%A1%E5%86%99%E5%91%A2/" title="Advanced Mathematics">奈氏准则</a></li>
+<li><a href="/2022/10/13/%E8%BF%98%E6%B2%A1%E5%86%99%E5%91%A2/" title="Advanced Mathematics">香农公式</a></li>
+</ul>
+<h4 id="第三章-数据链路层"><a href="#第三章-数据链路层" class="headerlink" title="第三章 数据链路层"></a>第三章 数据链路层</h4><p>3.1 <a href="/2022/10/13/%E8%BF%98%E6%B2%A1%E5%86%99%E5%91%A2/" title="Advanced Mathematics">数据链路概述</a></p>
+<p>3.2 <a href="/2022/10/13/%E8%BF%98%E6%B2%A1%E5%86%99%E5%91%A2/" title="Advanced Mathematics">封装成帧</a></p>
+<p>3.3 <a href="/2022/10/13/%E8%BF%98%E6%B2%A1%E5%86%99%E5%91%A2/" title="Advanced Mathematics">差错检测</a></p>
+<ul>
+<li><a href="/2022/10/13/%E8%BF%98%E6%B2%A1%E5%86%99%E5%91%A2/" title="Advanced Mathematics">奇偶检验</a></li>
+<li><a href="/2022/10/13/%E8%BF%98%E6%B2%A1%E5%86%99%E5%91%A2/" title="Advanced Mathematics">循环冗余校验CRC(Cyclic Redundancy Chek)</a></li>
+</ul>
+<p>3.4 可靠传输<a href="/2022/10/13/%E8%BF%98%E6%B2%A1%E5%86%99%E5%91%A2/" title="Advanced Mathematics">函数与极限</a></p>
+<ul>
+<li><a href="/2022/10/13/%E8%BF%98%E6%B2%A1%E5%86%99%E5%91%A2/" title="Advanced Mathematics">分组丢失</a></li>
+<li><a href="/2022/10/13/%E8%BF%98%E6%B2%A1%E5%86%99%E5%91%A2/" title="Advanced Mathematics">分组失序</a></li>
+<li><a href="/2022/10/13/%E8%BF%98%E6%B2%A1%E5%86%99%E5%91%A2/" title="Advanced Mathematics">分组重复</a></li>
+</ul>
+<p>3.5 <a href="/2022/10/13/%E8%BF%98%E6%B2%A1%E5%86%99%E5%91%A2/" title="Advanced Mathematics">三种可靠传输实现机制</a></p>
+<ul>
+<li><a href="/2022/10/13/%E8%BF%98%E6%B2%A1%E5%86%99%E5%91%A2/" title="Advanced Mathematics">停止-等待协议SW</a></li>
+<li><a href="/2022/10/13/%E8%BF%98%E6%B2%A1%E5%86%99%E5%91%A2/" title="Advanced Mathematics">回退N帧协议GBN</a></li>
+<li><a href="/2022/10/13/%E8%BF%98%E6%B2%A1%E5%86%99%E5%91%A2/" title="Advanced Mathematics">选择重传协议SR</a></li>
+</ul>
+<p>3.5 <a href="/2022/10/13/%E8%BF%98%E6%B2%A1%E5%86%99%E5%91%A2/" title="Advanced Mathematics">点对点协议PPP</a></p>
+<ul>
+<li><a href="/2022/10/13/%E8%BF%98%E6%B2%A1%E5%86%99%E5%91%A2/" title="Advanced Mathematics">PPP协议标准办法</a></li>
+<li><a href="/2022/10/13/%E8%BF%98%E6%B2%A1%E5%86%99%E5%91%A2/" title="Advanced Mathematics">PPP协议的帧格式</a></li>
+<li><a href="/2022/10/13/%E8%BF%98%E6%B2%A1%E5%86%99%E5%91%A2/" title="Advanced Mathematics">PPP协议解决透明传输问题</a></li>
+<li><a href="/2022/10/13/%E8%BF%98%E6%B2%A1%E5%86%99%E5%91%A2/" title="Advanced Mathematics">PPP协议进行差错检测</a></li>
+<li><a href="/2022/10/13/%E8%BF%98%E6%B2%A1%E5%86%99%E5%91%A2/" title="Advanced Mathematics">PPP协议的工作状态</a></li>
+</ul>
+<p>3.6 <a href="/2022/10/13/%E8%BF%98%E6%B2%A1%E5%86%99%E5%91%A2/" title="Advanced Mathematics">数据媒体接入控制</a></p>
+<ul>
+<li><a href="/2022/10/13/%E8%BF%98%E6%B2%A1%E5%86%99%E5%91%A2/" title="Advanced Mathematics">静态划分信道</a></li>
+<li><a href="/2022/10/13/%E8%BF%98%E6%B2%A1%E5%86%99%E5%91%A2/" title="Advanced Mathematics">动态接入控制</a></li>
+</ul>
+<p>3.7 <a href="/2022/10/13/%E8%BF%98%E6%B2%A1%E5%86%99%E5%91%A2/" title="Advanced Mathematics">MAC地址、IP地址以及ARP地址</a></p>
+<ul>
+<li><a href="/2022/10/13/%E8%BF%98%E6%B2%A1%E5%86%99%E5%91%A2/" title="Advanced Mathematics">MAC地址</a></li>
+<li><a href="/2022/10/13/%E8%BF%98%E6%B2%A1%E5%86%99%E5%91%A2/" title="Advanced Mathematics">IP地址</a></li>
+<li><a href="/2022/10/13/%E8%BF%98%E6%B2%A1%E5%86%99%E5%91%A2/" title="Advanced Mathematics">ARP地址</a></li>
+</ul>
+<p>3.8 <a href="/2022/10/13/%E8%BF%98%E6%B2%A1%E5%86%99%E5%91%A2/" title="Advanced Mathematics">集线器和交换器的区别</a></p>
+<p>3.9 <a href="/2022/10/13/%E8%BF%98%E6%B2%A1%E5%86%99%E5%91%A2/" title="Advanced Mathematics">以太网交换机自学习和转换帧的流程</a></p>
+<p>3.10 <a href="/2022/10/13/%E8%BF%98%E6%B2%A1%E5%86%99%E5%91%A2/" title="Advanced Mathematics">以太网交换机的生成树协议STP</a></p>
+<p>3.11 <a href="/2022/10/13/%E8%BF%98%E6%B2%A1%E5%86%99%E5%91%A2/" title="Advanced Mathematics">虚拟局域网VLAN</a></p>
+<ul>
+<li><a href="/2022/10/13/%E8%BF%98%E6%B2%A1%E5%86%99%E5%91%A2/" title="Advanced Mathematics">虚拟局域网VLAN的实现机制</a></li>
+</ul>
+<h4 id="第四章-网络层"><a href="#第四章-网络层" class="headerlink" title="第四章 网络层"></a>第四章 网络层</h4><p>4.1 <a href="/2022/10/13/%E8%BF%98%E6%B2%A1%E5%86%99%E5%91%A2/" title="Advanced Mathematics">网络层概述</a></p>
+<p>4.2 <a href="/2022/10/13/%E8%BF%98%E6%B2%A1%E5%86%99%E5%91%A2/" title="Advanced Mathematics">网络层提供的两种服务</a></p>
+<ul>
+<li><a href="/2022/10/13/%E8%BF%98%E6%B2%A1%E5%86%99%E5%91%A2/" title="Advanced Mathematics">面向连接的虚电路服务</a></li>
+<li><a href="/2022/10/13/%E8%BF%98%E6%B2%A1%E5%86%99%E5%91%A2/" title="Advanced Mathematics">无连接的数据报服务</a></li>
+</ul>
+<p>4.3 <a href="/2022/10/13/%E8%BF%98%E6%B2%A1%E5%86%99%E5%91%A2/" title="Advanced Mathematics">IPv4地址</a></p>
+<ul>
+<li><a href="/2022/10/13/%E8%BF%98%E6%B2%A1%E5%86%99%E5%91%A2/" title="Advanced Mathematics">IPv4地址概述</a></li>
+<li><a href="/2022/10/13/%E8%BF%98%E6%B2%A1%E5%86%99%E5%91%A2/" title="Advanced Mathematics">分类编制的IPv4地址</a></li>
+<li><a href="/2022/10/13/%E8%BF%98%E6%B2%A1%E5%86%99%E5%91%A2/" title="Advanced Mathematics">划分子网的IPv4地址</a></li>
+<li><a href="/2022/10/13/%E8%BF%98%E6%B2%A1%E5%86%99%E5%91%A2/" title="Advanced Mathematics">无分类编址的IPv4地址</a></li>
+<li><a href="/2022/10/13/%E8%BF%98%E6%B2%A1%E5%86%99%E5%91%A2/" title="Advanced Mathematics">IPv4地址的应用规划</a></li>
+</ul>
+<p>4.4 <a href="/2022/10/13/%E8%BF%98%E6%B2%A1%E5%86%99%E5%91%A2/" title="Advanced Mathematics">IP数据报的发送和转发过程</a></p>
+<p>4.5 <a href="/2022/10/13/%E8%BF%98%E6%B2%A1%E5%86%99%E5%91%A2/" title="Advanced Mathematics">静态路由配置及其可能产生的路由环路问题</a></p>
+<p>4.6 <a href="/2022/10/13/%E8%BF%98%E6%B2%A1%E5%86%99%E5%91%A2/" title="Advanced Mathematics">路由器选择协议</a></p>
+<ul>
+<li><a href="/2022/10/13/%E8%BF%98%E6%B2%A1%E5%86%99%E5%91%A2/" title="Advanced Mathematics">路由器选择协议概述</a></li>
+<li><a href="/2022/10/13/%E8%BF%98%E6%B2%A1%E5%86%99%E5%91%A2/" title="Advanced Mathematics">路由信息协议RIP的基本工作原理</a></li>
+<li><a href="/2022/10/13/%E8%BF%98%E6%B2%A1%E5%86%99%E5%91%A2/" title="Advanced Mathematics">开放最短路径优先OSPF协议</a></li>
+<li><a href="/2022/10/13/%E8%BF%98%E6%B2%A1%E5%86%99%E5%91%A2/" title="Advanced Mathematics">边界网关协议BGP</a></li>
+<li><a href="/2022/10/13/%E8%BF%98%E6%B2%A1%E5%86%99%E5%91%A2/" title="Advanced Mathematics">IPv4数据报的首部格式</a></li>
+</ul>
+<p>4.7 <a href="/2022/10/13/%E8%BF%98%E6%B2%A1%E5%86%99%E5%91%A2/" title="Advanced Mathematics">网际控制报文协议ICMP</a></p>
+<ul>
+<li><a href="/2022/10/13/%E8%BF%98%E6%B2%A1%E5%86%99%E5%91%A2/" title="Advanced Mathematics">ICMP中的差错报文</a></li>
+<li><a href="/2022/10/13/%E8%BF%98%E6%B2%A1%E5%86%99%E5%91%A2/" title="Advanced Mathematics">常见的ICMP询问报文</a></li>
+<li><a href="/2022/10/13/%E8%BF%98%E6%B2%A1%E5%86%99%E5%91%A2/" title="Advanced Mathematics">ICMP协议的两个应用</a></li>
+</ul>
+<p>4.8 <a href="/2022/10/13/%E8%BF%98%E6%B2%A1%E5%86%99%E5%91%A2/" title="Advanced Mathematics">虚拟专用网VPN和网络地址转换NAT</a></p>
+<ul>
+<li><a href="/2022/10/13/%E8%BF%98%E6%B2%A1%E5%86%99%E5%91%A2/" title="Advanced Mathematics">虚拟专用网VPN</a></li>
+<li><a href="/2022/10/13/%E8%BF%98%E6%B2%A1%E5%86%99%E5%91%A2/" title="Advanced Mathematics">网络地址转换NAT</a></li>
+</ul>
+<h4 id="第五章-运输层"><a href="#第五章-运输层" class="headerlink" title="第五章 运输层"></a>第五章 运输层</h4><p>5.1 <a href="/2022/10/13/%E8%BF%98%E6%B2%A1%E5%86%99%E5%91%A2/" title="Advanced Mathematics">运输层概述</a></p>
+<p>5.2 <a href="/2022/10/13/%E8%BF%98%E6%B2%A1%E5%86%99%E5%91%A2/" title="Advanced Mathematics">运输层端口号、复用和分用的概念</a></p>
+<ul>
+<li><a href="/2022/10/13/%E8%BF%98%E6%B2%A1%E5%86%99%E5%91%A2/" title="Advanced Mathematics">端口号</a></li>
+<li><a href="/2022/10/13/%E8%BF%98%E6%B2%A1%E5%86%99%E5%91%A2/" title="Advanced Mathematics">发送方的复用和接收方的分用</a></li>
+</ul>
+<p>5.3 <a href="/2022/10/13/%E8%BF%98%E6%B2%A1%E5%86%99%E5%91%A2/" title="Advanced Mathematics">UDP和TCP的对比</a></p>
+<p>5.4 <a href="/2022/10/13/%E8%BF%98%E6%B2%A1%E5%86%99%E5%91%A2/" title="Advanced Mathematics">TCP的流量控制</a></p>
+<p>5.5 <a href="/2022/10/13/%E8%BF%98%E6%B2%A1%E5%86%99%E5%91%A2/" title="Advanced Mathematics">TCP拥塞控制</a></p>
+<ul>
+<li><a href="/2022/10/13/%E8%BF%98%E6%B2%A1%E5%86%99%E5%91%A2/" title="Advanced Mathematics">慢开始算法</a></li>
+<li><a href="/2022/10/13/%E8%BF%98%E6%B2%A1%E5%86%99%E5%91%A2/" title="Advanced Mathematics">拥塞避免算法</a></li>
+<li><a href="/2022/10/13/%E8%BF%98%E6%B2%A1%E5%86%99%E5%91%A2/" title="Advanced Mathematics">快重传算法</a></li>
+<li><a href="/2022/10/13/%E8%BF%98%E6%B2%A1%E5%86%99%E5%91%A2/" title="Advanced Mathematics">快恢复算法</a></li>
+</ul>
+<p>5.6 <a href="/2022/10/13/%E8%BF%98%E6%B2%A1%E5%86%99%E5%91%A2/" title="Advanced Mathematics">TCP超时重传时间的选择</a></p>
+<p>5.7 <a href="/2022/10/13/%E8%BF%98%E6%B2%A1%E5%86%99%E5%91%A2/" title="Advanced Mathematics">TCP可靠传输的实现</a></p>
+<p>5.8 <a href="/2022/10/13/%E8%BF%98%E6%B2%A1%E5%86%99%E5%91%A2/" title="Advanced Mathematics">TCP的运输链接管理</a></p>
+<ul>
+<li><a href="/2022/10/13/%E8%BF%98%E6%B2%A1%E5%86%99%E5%91%A2/" title="Advanced Mathematics">TCP连接的建立（三握）</a></li>
+<li><a href="/2022/10/13/%E8%BF%98%E6%B2%A1%E5%86%99%E5%91%A2/" title="Advanced Mathematics">TCP连接的建立释放（四挥）</a></li>
+</ul>
+<p>5.9 <a href="/2022/10/13/%E8%BF%98%E6%B2%A1%E5%86%99%E5%91%A2/" title="Advanced Mathematics">TCP报文的首部格式</a></p>
+<h4 id="第六章-应用层"><a href="#第六章-应用层" class="headerlink" title="第六章 应用层"></a>第六章 应用层</h4><p>6.1 <a href="/2022/10/13/%E8%BF%98%E6%B2%A1%E5%86%99%E5%91%A2/" title="Advanced Mathematics">应用层概述</a></p>
+<p>6.2 <a href="/2022/10/13/%E8%BF%98%E6%B2%A1%E5%86%99%E5%91%A2/" title="Advanced Mathematics">客户服务器(C&#x2F;S)方式和对等(P2P)方式</a></p>
+<ul>
+<li><a href="/2022/10/13/%E8%BF%98%E6%B2%A1%E5%86%99%E5%91%A2/" title="Advanced Mathematics">客户&#x2F;服务器(Client&#x2F;Server,C&#x2F;S)方式</a></li>
+<li><a href="/2022/10/13/%E8%BF%98%E6%B2%A1%E5%86%99%E5%91%A2/" title="Advanced Mathematics">对等方式（Peer-to-Peer，P2P）方式</a></li>
+</ul>
+<p>6.3 <a href="/2022/10/13/%E8%BF%98%E6%B2%A1%E5%86%99%E5%91%A2/" title="Advanced Mathematics">动态主机配置协议DHCP</a></p>
+<ul>
+<li><a href="/2022/10/13/%E8%BF%98%E6%B2%A1%E5%86%99%E5%91%A2/" title="Advanced Mathematics">DHCP中继代理</a></li>
+</ul>
+<p>6.4 <a href="/2022/10/13/%E8%BF%98%E6%B2%A1%E5%86%99%E5%91%A2/" title="Advanced Mathematics">域名系统DNS</a></p>
+<ul>
+<li><a href="/2022/10/13/%E8%BF%98%E6%B2%A1%E5%86%99%E5%91%A2/" title="Advanced Mathematics">层次树状结构的域名结构</a></li>
+<li><a href="/2022/10/13/%E8%BF%98%E6%B2%A1%E5%86%99%E5%91%A2/" title="Advanced Mathematics">文件传送协议FTP</a></li>
+<li><a href="/2022/10/13/%E8%BF%98%E6%B2%A1%E5%86%99%E5%91%A2/" title="Advanced Mathematics">FTP的应用过程</a></li>
+<li><a href="/2022/10/13/%E8%BF%98%E6%B2%A1%E5%86%99%E5%91%A2/" title="Advanced Mathematics">FTP的基本工作原理</a></li>
+</ul>
+<p>6.6 <a href="/2022/10/13/%E8%BF%98%E6%B2%A1%E5%86%99%E5%91%A2/" title="Advanced Mathematics">电子邮件</a></p>
+<ul>
+<li><a href="/2022/10/13/%E8%BF%98%E6%B2%A1%E5%86%99%E5%91%A2/" title="Advanced Mathematics">简单邮件传送协议SMTP（Simple Mail Transfer ）基本工作原理</a></li>
+<li><a href="/2022/10/13/%E8%BF%98%E6%B2%A1%E5%86%99%E5%91%A2/" title="Advanced Mathematics">常用的邮件读取协议</a></li>
+<li><a href="/2022/10/13/%E8%BF%98%E6%B2%A1%E5%86%99%E5%91%A2/" title="Advanced Mathematics">基于万维网的电子邮件</a></li>
+</ul>
+<p>6.7 <a href="/2022/10/13/%E8%BF%98%E6%B2%A1%E5%86%99%E5%91%A2/" title="Advanced Mathematics">万维网WWW</a></p>
+<ul>
+<li><a href="/2022/10/13/%E8%BF%98%E6%B2%A1%E5%86%99%E5%91%A2/" title="Advanced Mathematics">概述</a></li>
+<li><a href="/2022/10/13/%E8%BF%98%E6%B2%A1%E5%86%99%E5%91%A2/" title="Advanced Mathematics">超文本传输协议HTTP(HyperText Transfer Protocol)</a></li>
+<li><a href="/2022/10/13/%E8%BF%98%E6%B2%A1%E5%86%99%E5%91%A2/" title="Advanced Mathematics">万维网中的Cookie</a></li>
+<li><a href="/2022/10/13/%E8%BF%98%E6%B2%A1%E5%86%99%E5%91%A2/" title="Advanced Mathematics">万维网中的缓存和代理服务器</a></li>
+</ul>
+<h4 id="第七章-网络安全"><a href="#第七章-网络安全" class="headerlink" title="第七章 网络安全"></a>第七章 网络安全</h4><p>7.1 <a href="/2022/10/13/%E8%BF%98%E6%B2%A1%E5%86%99%E5%91%A2/" title="Advanced Mathematics">概述</a></p>
+<p>7.2 <a href="/2022/10/13/%E8%BF%98%E6%B2%A1%E5%86%99%E5%91%A2/" title="Advanced Mathematics">密码学</a></p>
+<p>7.3 <a href="/2022/10/13/%E8%BF%98%E6%B2%A1%E5%86%99%E5%91%A2/" title="Advanced Mathematics">鉴别</a></p>
+<p>7.4 <a href="/2022/10/13/%E8%BF%98%E6%B2%A1%E5%86%99%E5%91%A2/" title="Advanced Mathematics">密钥与公钥</a></p>
+<p>7.5 <a href="/2022/10/13/%E8%BF%98%E6%B2%A1%E5%86%99%E5%91%A2/" title="Advanced Mathematics">控制访问</a></p>
+<p>7.6 <a href="/2022/10/13/%E8%BF%98%E6%B2%A1%E5%86%99%E5%91%A2/" title="Advanced Mathematics">安全实例</a></p>
+<p>7.7 <a href="/2022/10/13/%E8%BF%98%E6%B2%A1%E5%86%99%E5%91%A2/" title="Advanced Mathematics">防火墙</a></p>
+<p>7.8 <a href="/2022/10/13/%E8%BF%98%E6%B2%A1%E5%86%99%E5%91%A2/" title="Advanced Mathematics">网络攻击</a></p>
+</div></section></article><div class="post-nav"><div class="post-nav-item"><a class="post-nav-prev" href="/2022/10/14/%E7%BC%96%E8%AF%91%E5%8E%9F%E7%90%86%E7%9B%AE%E5%BD%95/" rel="prev" title="Contents of Principle of Compiler"><span class="icon iconify" data-icon="ri:arrow-left-s-line"></span><span class="post-nav-text">Contents of Principle of Compiler</span></a></div><div class="post-nav-item"><a class="post-nav-next" href="/2022/10/13/%E8%BF%98%E6%B2%A1%E5%86%99%E5%91%A2/" rel="next" title="Advanced Mathematics"><span class="post-nav-text">Advanced Mathematics</span><span class="icon iconify" data-icon="ri:arrow-right-s-line"></span></a></div></div></div><div class="hty-card" id="comment"></div></main><footer class="sidebar-translate" id="footer"><div class="copyright"><span>&copy; 2022 </span><span class="with-love" id="animate" title="欢迎"><span class="icon iconify" data-icon="ri:cloud-line"></span></span><span class="author"> Warbin</span></div><div class="live-time"><span>本博客已萌萌哒地运行</span><span id="display_live_time"></span><span class="moe-text">(●'◡'●)</span><script>function blog_live_time() {
+  setTimeout(blog_live_time, 1000);
+  const start = new Date('2022-10-11T22:24:00');
+  const now = new Date();
+  const timeDiff = (now.getTime() - start.getTime());
+  const msPerMinute = 60 * 1000;
+  const msPerHour = 60 * msPerMinute;
+  const msPerDay = 24 * msPerHour;
+  const passDay = Math.floor(timeDiff / msPerDay);
+  const passHour = Math.floor((timeDiff % msPerDay) / 60 / 60 / 1000);
+  const passMinute = Math.floor((timeDiff % msPerHour) / 60 / 1000);
+  const passSecond = Math.floor((timeDiff % msPerMinute) / 1000);
+  display_live_time.innerHTML = ` ${passDay} 天 ${passHour} 小时 ${passMinute} 分 ${passSecond} 秒`;
+}
+blog_live_time();
+</script></div></footer></div><a class="hty-icon-button" id="back-to-top" aria-label="back-to-top" href="#"><span class="icon iconify" data-icon="ri:arrow-up-s-line"></span><svg class="progress-circle-container" viewBox="0 0 100 100"><circle class="progress-circle" id="progressCircle" cx="50" cy="50" r="48" fill="none" stroke="#0078E7" stroke-width="2" stroke-linecap="round"></circle></svg></a><script>function initMourn() {
+  const date = new Date();
+  const today = (date.getMonth() + 1) + "-" + date.getDate()
+  const mourn_days = ["4-4","9-18"]
+  if (mourn_days.includes(today)) {
+    document.documentElement.style.filter = "grayscale(1)";
+  }
+}
+initMourn();</script><script src="https://fastly.jsdelivr.net/npm/medium-zoom@1.0.6/dist/medium-zoom.min.js"></script><script>const images = [...document.querySelectorAll('.markdown-body img')]
+mediumZoom(images)</script><style>.medium-zoom-image {
+  z-index: 99;
+}</style></body></html>
