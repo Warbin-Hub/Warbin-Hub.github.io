@@ -6997,13 +6997,17 @@
     <title>Contents of Computer Network</title>
     <url>/2022/10/14/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%E7%9B%AE%E5%BD%95/</url>
     <content><![CDATA[<h3 id="一、说明"><a href="#一、说明" class="headerlink" title="一、说明"></a>一、说明</h3><p>本目录是我考研计算机网络具体笔记博客的一个导向目录。</p>
-<h3 id="二、目录链接"><a href="#二、目录链接" class="headerlink" title="二、目录链接"></a>二、目录链接</h3><h4 id="第一章-计算机网络概述"><a href="#第一章-计算机网络概述" class="headerlink" title="第一章 计算机网络概述"></a>第一章 计算机网络概述</h4><p>1.1 <a href="/2022/10/13/%E8%BF%98%E6%B2%A1%E5%86%99%E5%91%A2/" title="Advanced Mathematics">计算机网络中在信息时代的作用</a></p>
-<p>1.2 <a href="/2022/10/13/%E8%BF%98%E6%B2%A1%E5%86%99%E5%91%A2/" title="Advanced Mathematics">因特网概述</a></p>
+<h3 id="二、目录链接"><a href="#二、目录链接" class="headerlink" title="二、目录链接"></a>二、目录链接</h3><h4 id="第一章-计算机网络概述"><a href="#第一章-计算机网络概述" class="headerlink" title="第一章 计算机网络概述"></a>第一章 计算机网络概述</h4><p>1.1 信息时代的计算机网络</p>
 <ul>
-<li><a href="/2022/10/13/%E8%BF%98%E6%B2%A1%E5%86%99%E5%91%A2/" title="Advanced Mathematics">网络、互联网和因特网</a></li>
-<li><a href="/2022/10/13/%E8%BF%98%E6%B2%A1%E5%86%99%E5%91%A2/" title="Advanced Mathematics">因特网发展的三个阶段</a></li>
-<li><a href="/2022/10/13/%E8%BF%98%E6%B2%A1%E5%86%99%E5%91%A2/" title="Advanced Mathematics">因特网的标准化工作</a></li>
-<li><a href="/2022/10/13/%E8%BF%98%E6%B2%A1%E5%86%99%E5%91%A2/" title="Advanced Mathematics">因特网的组成</a></li>
+<li><a href="/2022/12/08/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%E7%9A%84%E5%90%84%E7%B1%BB%E5%BA%94%E7%94%A8/" title="1.1.1 计算机网络的各类应用">计算机网络的各类应用</a></li>
+<li><a href="/2022/12/08/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%E5%B8%A6%E6%9D%A5%E7%9A%84%E8%B4%9F%E9%9D%A2%E9%97%AE%E9%A2%98/" title="1.1.2 计算机网络带来的负面问题">计算机网络带来的负面问题</a></li>
+</ul>
+<p>1.2 因特网概述</p>
+<ul>
+<li><a href="/2022/12/08/%E5%9B%A0%E7%89%B9%E7%BD%91%E7%9A%84%E5%8C%BA%E5%88%AB%E4%B8%8E%E5%85%B3%E7%B3%BB/" title="1.2.1 网络、互连网（互联网）与因特网的区别与关系">网络、互连网（互联网）与因特网的区别与关系</a></li>
+<li><a href="/2022/12/09/%E5%9B%A0%E7%89%B9%E7%BD%91%E7%9A%84%E5%8F%91%E5%B1%95%E5%8E%86%E7%A8%8B/" title="1.2.2 因特网的发展历程">因特网的发展历程</a></li>
+<li><a href="/2022/12/09/%E5%9B%A0%E7%89%B9%E7%BD%91%E7%9A%84%E6%A0%87%E5%87%86%E5%8C%96%E5%B7%A5%E4%BD%9C%E5%92%8C%E7%AE%A1%E7%90%86%E6%9C%BA%E6%9E%84/" title="1.2.3 因特网的标准化工作和管理机构">因特网的标准化工作和管理机构</a></li>
+<li><a href="/2022/12/08/%E5%9B%A0%E7%89%B9%E7%BD%91%E7%9A%84%E7%BB%84%E6%88%90/" title="1.2.4 因特网的组成">因特网的组成</a></li>
 </ul>
 <p>1.3 <a href="/2022/10/13/%E8%BF%98%E6%B2%A1%E5%86%99%E5%91%A2/" title="Advanced Mathematics">三种交换方式</a></p>
 <ul>
@@ -7959,6 +7963,132 @@
       </categories>
       <tags>
         <tag>Blue Bridge Cup</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>1.2.1 网络、互连网（互联网）与因特网的区别与关系</title>
+    <url>/2022/12/08/%E5%9B%A0%E7%89%B9%E7%BD%91%E7%9A%84%E5%8C%BA%E5%88%AB%E4%B8%8E%E5%85%B3%E7%B3%BB/</url>
+    <content><![CDATA[<h3 id="一、网络"><a href="#一、网络" class="headerlink" title="一、网络"></a>一、网络</h3><blockquote>
+<p>网络（Network）是由若干节点（Node）和连接这些节点的链路（Link）组成的。</p>
+<p>网络中的节点可以是计算机（笔记本电脑、台式电脑、服务器等）、网络互连设备（集线器、交换机、路由器等）、其他具有网络功能的设备（网络打印机、网络摄像头、物联网设备等）。</p>
+<p>网络中的链路既可以是有线链路，也可以是无线链路。</p>
+</blockquote>
+<p><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20221208235501898.png" alt="image-20221208235501898" loading="lazy"></p>
+<h3 id="二、互连网（互联网）"><a href="#二、互连网（互联网）" class="headerlink" title="二、互连网（互联网）"></a>二、互连网（互联网）</h3><blockquote>
+<p>互联网（intemet）是由若干网络和连接这些网络的路由器组成的。</p>
+<p>如果我们忽略互连细节，则可将互联网看作一个覆盖范围更大的网络，因此也可称其为“网络的网络（Network of Networks）”。</p>
+<p>为了简单起见，互联网也可用一朵云表示。</p>
+</blockquote>
+<p><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20221208235703681.png" alt="image-20221208235703681" loading="lazy"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20221208235712615.png" alt="image-20221208235712615" loading="lazy"></p>
+<h3 id="三、因特网"><a href="#三、因特网" class="headerlink" title="三、因特网"></a>三、因特网</h3><blockquote>
+<p>因特网（Intemct）是我们几乎每天都会使用的网络，它是当今世界上最大的互联网，基用户数以亿计，互连的网络数以百万计。因特网也常常用一朵云来表示，其内部各种路由器和异构型网络的互连细节不用给出（一般也难以给出）。</p>
+<p>连接在因特网上的各种通信设备（例如智能手机、平板电脑、笔记本电脑、台式电脑、服务器、网络打印机和可联网家用电器等）称为主机（Host），而路由器是用于网络互连的专用设备，一般不称其为主机。</p>
+</blockquote>
+<p><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20221208235830729.png" alt="image-20221208235830729" loading="lazy"></p>
+<h3 id="四、区别与关系"><a href="#四、区别与关系" class="headerlink" title="四、区别与关系"></a>四、区别与关系</h3><blockquote>
+<p>若干节点和链路互连形成网络，而若干网络通过路由器互连形成互联网，因特网是当今世界上最大的互联网。</p>
+</blockquote>
+<p><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20221208235944462.png" alt="image-20221208235944462" loading="lazy"></p>
+]]></content>
+      <categories>
+        <category>catalogue</category>
+      </categories>
+      <tags>
+        <tag>postgraduate</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>1.2.2 因特网的发展历程</title>
+    <url>/2022/12/09/%E5%9B%A0%E7%89%B9%E7%BD%91%E7%9A%84%E5%8F%91%E5%B1%95%E5%8E%86%E7%A8%8B/</url>
+    <content><![CDATA[<h3 id="一、因特网的诞生背景"><a href="#一、因特网的诞生背景" class="headerlink" title="一、因特网的诞生背景"></a>一、因特网的诞生背景</h3><blockquote>
+<p>因特网是冷战的产物之一。1962年，美国国防部为了确保美国军事力量在遭受苏联第一波核打击后，仍具有一定的生存和反击能力，决定设计一种基于分组交换技术的通信指挥系统。1969年，美国国防部创建了第一个分组交换网ARPANET，该网络就是因特网的雏形。</p>
+</blockquote>
+<h3 id="二、因特网发展的三个阶段"><a href="#二、因特网发展的三个阶段" class="headerlink" title="二、因特网发展的三个阶段"></a>二、因特网发展的三个阶段</h3><blockquote>
+<p>因特网的基础结构大体上经历了三个阶段的演进。</p>
+</blockquote>
+<p><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20221209000259192.png" alt="image-20221209000259192" loading="lazy"></p>
+<h3 id="三、因特网服务提供者ISP"><a href="#三、因特网服务提供者ISP" class="headerlink" title="三、因特网服务提供者ISP"></a>三、因特网服务提供者ISP</h3><blockquote>
+<p>我国的ISP主要有中国电信、中国移动以及中国联通这三大电信运营商，它们向广大用户提供因特网接入服务、信息服务和增值服务。</p>
+</blockquote>
+<p><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20221209000506456.png" alt="image-20221209000506456" loading="lazy"></p>
+<h3 id="四、因特网已发展成为基于ISP的多层次结构的互连网络"><a href="#四、因特网已发展成为基于ISP的多层次结构的互连网络" class="headerlink" title="四、因特网已发展成为基于ISP的多层次结构的互连网络"></a>四、因特网已发展成为基于ISP的多层次结构的互连网络</h3><blockquote>
+<p>因特网已经发展成基于ISP的多层次结构的互连网络。</p>
+</blockquote>
+<p><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20221209000659296.png" alt="image-20221209000659296" loading="lazy"></p>
+]]></content>
+      <categories>
+        <category>catalogue</category>
+      </categories>
+      <tags>
+        <tag>postgraduate</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>1.2.3 因特网的标准化工作和管理机构</title>
+    <url>/2022/12/09/%E5%9B%A0%E7%89%B9%E7%BD%91%E7%9A%84%E6%A0%87%E5%87%86%E5%8C%96%E5%B7%A5%E4%BD%9C%E5%92%8C%E7%AE%A1%E7%90%86%E6%9C%BA%E6%9E%84/</url>
+    <content><![CDATA[<h3 id="一、因特网的标准化工作"><a href="#一、因特网的标准化工作" class="headerlink" title="一、因特网的标准化工作"></a>一、因特网的标准化工作</h3><blockquote>
+<p>因特网的标准化工作是面向公众的，其任何一个建议标准在成为因特网标准之前，都以RFC技术文档的形式在因特网上发表。RFC（Request For Comments）的意思是“请求评论”。任何人都可以从因特网上免费下载RFC文档（<a href="http://www.ietf.org/rfc.html)%EF%BC%8C%E5%B9%B6%E9%9A%8F%E6%97%B6%E5%AF%B9%E6%9F%90%E4%B8%AARFC%E6%96%87%E6%A1%A3%E5%8F%91%E8%A1%A8%E6%84%8F%E8%A7%81%E5%92%8C%E5%BB%BA%E8%AE%AE%E3%80%82">http://www.ietf.org/rfc.html)，并随时对某个RFC文档发表意见和建议。</a></p>
+<p>制定因特网标准需要经过因特网草案（Internet Draft）、建议标准（Proposed Standard）、草案标准（Draft Standard）、因特网标准（Internet Standard）这4个阶段。</p>
+</blockquote>
+<p><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20221209000828271.png" alt="image-20221209000828271" loading="lazy"></p>
+<h3 id="二、因特网的管理机构"><a href="#二、因特网的管理机构" class="headerlink" title="二、因特网的管理机构"></a>二、因特网的管理机构</h3><blockquote>
+<p>因特网管理机构的组织架构如图1-11所示。因特网由国际组织因特网协会（Internet Society，ISOC）全面管理。ISOC下设因特网体系结构委员会（Intemet Architecture Board,IAB），负责管理因特网相关协议的开发。IAB下设因特网工程部(Internet Engineering Task Force, IETF）和因特网研究部（Internet Research Task Force, IRTF），其中IETF负责研究中短期的工程问题、相关协议的开发和标准化；IRTF负责研究理论方面的需要长期考虑的问题。</p>
+</blockquote>
+<p><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20221209000941469.png" alt="image-20221209000941469" loading="lazy"></p>
+]]></content>
+      <categories>
+        <category>catalogue</category>
+      </categories>
+      <tags>
+        <tag>postgraduate</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>1.2.4 因特网的组成</title>
+    <url>/2022/12/08/%E5%9B%A0%E7%89%B9%E7%BD%91%E7%9A%84%E7%BB%84%E6%88%90/</url>
+    <content><![CDATA[<h3 id="一、因特网的组成"><a href="#一、因特网的组成" class="headerlink" title="一、因特网的组成"></a>一、因特网的组成</h3><blockquote>
+<p>因特网的边缘部分。由连接在因特网上的台式电脑、笔记本电脑、平板电脑、服务器、智能手机、智能手表、网络摄像头和网络打印机等用户设备构成。这些用户设备常称为主机，由用户直接使用，为用户直接提供各式各样的网络应用。</p>
+<p>因特网的核心部分。由大量异构型网络和连接这些网络的路由器构成。因特网的核心部分为其边缘部分提供连通性和数据交换等服务。</p>
+</blockquote>
+<p><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20221209001059096.png" alt="image-20221209001059096" loading="lazy"></p>
+]]></content>
+      <categories>
+        <category>catalogue</category>
+      </categories>
+      <tags>
+        <tag>postgraduate</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>1.1.2 计算机网络带来的负面问题</title>
+    <url>/2022/12/08/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%E5%B8%A6%E6%9D%A5%E7%9A%84%E8%B4%9F%E9%9D%A2%E9%97%AE%E9%A2%98/</url>
+    <content><![CDATA[<h3 id="一、网络带来的负面问题"><a href="#一、网络带来的负面问题" class="headerlink" title="一、网络带来的负面问题"></a>一、网络带来的负面问题</h3><blockquote>
+<p>黑客利用网络窃取国家机密、传播计算机病毒、肆意攻击正规网站，不法分子在网络上实施诈骗、建立各种色情网站和赌博网站来牟利，某些电子商务平台上的不良商家通过网络售卖假冒伪劣商品，网络使用者有意或无意地传播形形色色的谣言……但是，计算机网路给我们生活带来的正面影响远远超过其负面问题。</p>
+</blockquote>
+<p><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20221208234426384.png" alt="image-20221208234426384" loading="lazy"></p>
+]]></content>
+      <categories>
+        <category>catalogue</category>
+      </categories>
+      <tags>
+        <tag>postgraduate</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>1.1.1 计算机网络的各类应用</title>
+    <url>/2022/12/08/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%E7%9A%84%E5%90%84%E7%B1%BB%E5%BA%94%E7%94%A8/</url>
+    <content><![CDATA[<h3 id="一、生活中网络应用分类"><a href="#一、生活中网络应用分类" class="headerlink" title="一、生活中网络应用分类"></a>一、生活中网络应用分类</h3><blockquote>
+<p>我们生活中丰富多彩的网络应用大致可以分为信息浏览和发布、通信和交流、休闲和娱乐、资源共享、电子商务、远程协作、网上办公等几个类别。</p>
+</blockquote>
+<p><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20221208233950290.png" alt="image-20221208233950290" loading="lazy"></p>
+<h3 id="二、物联网IoT"><a href="#二、物联网IoT" class="headerlink" title="二、物联网IoT"></a>二、物联网IoT</h3><p><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20221208234319489.png" alt="image-20221208234319489" loading="lazy"></p>
+]]></content>
+      <categories>
+        <category>catalogue</category>
+      </categories>
+      <tags>
+        <tag>postgraduate</tag>
       </tags>
   </entry>
 </search>
