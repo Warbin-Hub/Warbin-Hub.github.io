@@ -8124,7 +8124,7 @@
 <p>链路利用率：某条链路有百分之几的时间是被利用的（即有数据通过）。完全空闲的链路的利用率为零。</p>
 <p>网络利用率：网路中所有的链路的链路利用率的加权平均。</p>
 </blockquote>
-<h3 id="二、利用率和时延的关系"><a href="#二、利用率和时延的关系" class="headerlink" title="二、利用率和时延的关系"></a>二、利用率和时延的关系</h3><p><img src="C:/Users/Warbin/AppData/Roaming/Typora/typora-user-images/image-20221209140113131.png" alt="image-20221209140113131" loading="lazy"></p>
+<h3 id="二、利用率和时延的关系"><a href="#二、利用率和时延的关系" class="headerlink" title="二、利用率和时延的关系"></a>二、利用率和时延的关系</h3><p><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20221209205021389.png" alt="image-20221209205021389" loading="lazy"></p>
 ]]></content>
       <categories>
         <category>Computer Network</category>
