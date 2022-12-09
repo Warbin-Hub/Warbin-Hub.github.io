@@ -7032,12 +7032,17 @@
 <li><a href="/2022/12/09/%E5%88%A9%E7%94%A8%E7%8E%87/" title="1.5.7 利用率">利用率</a></li>
 <li><a href="/2022/12/09/%E4%B8%A2%E5%8C%85%E7%8E%87/" title="1.5.8 丢包率">丢包率</a></li>
 </ul>
-<p>1.6 <a href="/2022/10/13/%E8%BF%98%E6%B2%A1%E5%86%99%E5%91%A2/" title="Advanced Mathematics">计算机网络体系结构</a></p>
+<p>1.6 计算机网络体系结构</p>
 <ul>
-<li><a href="/2022/10/13/%E8%BF%98%E6%B2%A1%E5%86%99%E5%91%A2/" title="Advanced Mathematics">常见的计算机网络体系结构</a></li>
-<li><a href="/2022/10/13/%E8%BF%98%E6%B2%A1%E5%86%99%E5%91%A2/" title="Advanced Mathematics">计算机网络结构分层的必要性</a></li>
-<li><a href="/2022/10/13/%E8%BF%98%E6%B2%A1%E5%86%99%E5%91%A2/" title="Advanced Mathematics">计算机网络体系结构分层思想举例</a></li>
-<li><a href="/2022/10/13/%E8%BF%98%E6%B2%A1%E5%86%99%E5%91%A2/" title="Advanced Mathematics">计算机网络体系结构中的术语</a></li>
+<li><a href="/2022/12/09/%E5%B8%B8%E8%A7%81%E7%9A%84%E4%B8%89%E7%A7%8D%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%E4%BD%93%E7%B3%BB%E7%BB%93%E6%9E%84/" title="1.6.1 常见的三种计算机网络体系结构">常见的三种计算机网络体系结构</a></li>
+<li><a href="/2022/12/09/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%E4%BD%93%E7%B3%BB%E7%BB%93%E6%9E%84%E5%88%86%E5%B1%82%E7%9A%84%E5%BF%85%E8%A6%81%E6%80%A7/" title="1.6.2 计算机网络体系结构分层的必要性">计算机网络体系结构分层的必要性</a></li>
+<li><a href="/2022/12/09/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%E4%BD%93%E7%B3%BB%E7%BB%93%E6%9E%84%E5%88%86%E5%B1%82%E6%80%9D%E6%83%B3%E4%B8%BE%E4%BE%8B/" title="1.6.3 计算机网络体系结构分层思想举例">计算机网络体系结构分层思想举例</a></li>
+<li><a href="/2022/12/09/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%E4%BD%93%E7%B3%BB%E7%BB%93%E6%9E%84%E4%B8%AD%E7%9A%84%E4%B8%93%E7%94%A8%E6%9C%AF%E8%AF%AD/" title="1.6.4 计算机网络体系结构中的专用术语">计算机网络体系结构中的专用术语</a></li>
+</ul>
+<p>1.7 我国的计算机网络发展情况</p>
+<ul>
+<li><a href="/2022/12/09/%E6%88%91%E5%9B%BD%E7%9A%84%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%E5%8F%91%E5%B1%95%E5%8E%86%E7%A8%8B/" title="1.7.1 我国的计算机网络发展历程">我国的计算机网络发展历程</a></li>
+<li><a href="/2022/12/09/%E6%88%91%E5%9B%BD%E4%BA%92%E8%81%94%E7%BD%91%E5%8F%91%E5%B1%95%E6%83%85%E5%86%B5%E7%9B%B8%E5%85%B3%E8%B5%84%E6%96%99%E7%9A%84%E8%8E%B7%E5%8F%96/" title="1.7.2 我国互联网发展情况相关资料的获取">我国互联网发展情况相关资料的获取</a></li>
 </ul>
 <h4 id="第二章-物理层"><a href="#第二章-物理层" class="headerlink" title="第二章 物理层"></a>第二章 物理层</h4><p>2.1 <a href="/2022/10/13/%E8%BF%98%E6%B2%A1%E5%86%99%E5%91%A2/" title="Advanced Mathematics">物理层的基本概念</a></p>
 <ul>
@@ -8119,7 +8124,7 @@
 <p>链路利用率：某条链路有百分之几的时间是被利用的（即有数据通过）。完全空闲的链路的利用率为零。</p>
 <p>网络利用率：网路中所有的链路的链路利用率的加权平均。</p>
 </blockquote>
-<h3 id="二、利用率和时延的关系"><a href="#二、利用率和时延的关系" class="headerlink" title="二、利用率和时延的关系"></a>二、利用率和时延的关系</h3><p><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20221209140113131.png" alt="image-20221209140113131" loading="lazy"></p>
+<h3 id="二、利用率和时延的关系"><a href="#二、利用率和时延的关系" class="headerlink" title="二、利用率和时延的关系"></a>二、利用率和时延的关系</h3><p><img src="C:/Users/Warbin/AppData/Roaming/Typora/typora-user-images/image-20221209140113131.png" alt="image-20221209140113131" loading="lazy"></p>
 ]]></content>
       <categories>
         <category>Computer Network</category>
@@ -8389,6 +8394,239 @@
 <h3 id="二、速率"><a href="#二、速率" class="headerlink" title="二、速率"></a>二、速率</h3><p><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20221209133311293.png" alt="image-20221209133311293" loading="lazy"></p>
 <p><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20221209133336741.png" alt="image-20221209133336741" loading="lazy"></p>
 <h3 id="三、单位对比"><a href="#三、单位对比" class="headerlink" title="三、单位对比"></a>三、单位对比</h3><p><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20221209133358270.png" alt="image-20221209133358270" loading="lazy"></p>
+]]></content>
+      <categories>
+        <category>Computer Network</category>
+      </categories>
+      <tags>
+        <tag>postgraduate</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>1.7.2 我国互联网发展情况相关资料的获取</title>
+    <url>/2022/12/09/%E6%88%91%E5%9B%BD%E4%BA%92%E8%81%94%E7%BD%91%E5%8F%91%E5%B1%95%E6%83%85%E5%86%B5%E7%9B%B8%E5%85%B3%E8%B5%84%E6%96%99%E7%9A%84%E8%8E%B7%E5%8F%96/</url>
+    <content><![CDATA[<h3 id="一、中国互联网络信息中心CNNIC"><a href="#一、中国互联网络信息中心CNNIC" class="headerlink" title="一、中国互联网络信息中心CNNIC"></a>一、中国互联网络信息中心CNNIC</h3><blockquote>
+<p>每年会发布两次我国互联网发展状况统计报告。我们可在CNNIC的官方网站<a href="http://www.cnnic.cn上查询和下载最新的相关文档./">www.cnnic.cn上查询和下载最新的相关文档。</a></p>
+</blockquote>
+<h3 id="二、第49次《中国互联网络发展状况统计报告》核心数据（截至2021年12月）"><a href="#二、第49次《中国互联网络发展状况统计报告》核心数据（截至2021年12月）" class="headerlink" title="二、第49次《中国互联网络发展状况统计报告》核心数据（截至2021年12月）"></a>二、第49次《中国互联网络发展状况统计报告》核心数据（截至2021年12月）</h3><blockquote>
+<ol>
+<li>我国网民规模：10.32亿，较2020年12月增长4296万，互联网普及率达73.0%，较2020年12月提升2.6个百分点。</li>
+<li>我国手机网民规模：10.29亿，较2020年12月增长4298万，网民使用手机上网的比例达99.7%。</li>
+<li>我国农村网民规模：2.84亿，占网民整体的27.6%；城镇网民规模达7.48亿，占网民整体的72.4%。</li>
+<li>我国网民使用手机上网的比例：99.7%；使用电视上网的比例为28.1%；使用台式电脑上网、笔记本电脑上网、平板电脑上网的比例分别为35.0%、33.0%和27.4%。</li>
+<li>我国IPv6地址数量：62052块&#x2F;32，较2020年12月增长9.4%。</li>
+<li>我国即时通信用户规模：10.07亿，较2020年12月增长2555万，占网民整体的97.5%。</li>
+<li>我国网络视频（含短视频）用户规模：9.75亿，较2020年12月增长4794万，占网民整体的94.5%；其中，短视频用户规模达9.34亿，较2020年12月增长6080万，占网民整体的90.5%。</li>
+<li>我国网络支付用户规模：9.04亿，较2020年12月增长4929万，占网民整体的87.6%。</li>
+<li>我国网络购物用户规模：8.42亿，较2020年12月增长5968万<strong>，</strong>占网民整体的81.6%。</li>
+<li>我国网络新闻用户规模：7.71亿，较2020年12月增长2835万，占网民整体的74.7%。</li>
+<li>我国网上外卖用户规模：5.44亿，较2020年12月增长1.25亿，占网民整体的52.7%。</li>
+<li>我国在线办公用户规模：4.69亿，较2020年12月增长1.23亿，占网民整体的45.4%。</li>
+<li>我国在线医疗用户规模：2.98亿，较2020年12月增长8308万，占网民整体的28.9%。</li>
+</ol>
+</blockquote>
+]]></content>
+      <categories>
+        <category>Computer Network</category>
+      </categories>
+      <tags>
+        <tag>postgraduate</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>1.6.4 计算机网络体系结构中的专用术语</title>
+    <url>/2022/12/09/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%E4%BD%93%E7%B3%BB%E7%BB%93%E6%9E%84%E4%B8%AD%E7%9A%84%E4%B8%93%E7%94%A8%E6%9C%AF%E8%AF%AD/</url>
+    <content><![CDATA[<h3 id="一、计算机网络体系结构中的专用术语"><a href="#一、计算机网络体系结构中的专用术语" class="headerlink" title="一、计算机网络体系结构中的专用术语"></a>一、计算机网络体系结构中的专用术语</h3><blockquote>
+<p>这些专业术语来源于OSI的七层体系结构，但也适用于TCP&#x2F;IP的四层体系结构和五层原理体系结构。</p>
+<p>最具有代表性的三个作为分类名称：<strong>实体</strong>、<strong>协议</strong>、<strong>服务</strong>。</p>
+</blockquote>
+<h3 id="二、实体和对等实体"><a href="#二、实体和对等实体" class="headerlink" title="二、实体和对等实体"></a>二、实体和对等实体</h3><p><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20221209202826343.png" alt="image-20221209202826343" loading="lazy"></p>
+<h3 id="三、协议"><a href="#三、协议" class="headerlink" title="三、协议"></a>三、协议</h3><p><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20221209202912112.png" alt="image-20221209202912112" loading="lazy"></p>
+<blockquote>
+<p>计算机网络协议有三个要素：<strong>语法</strong>、<strong>语义</strong>以及<strong>同步</strong>。</p>
+</blockquote>
+<h4 id="3-1-语法"><a href="#3-1-语法" class="headerlink" title="3.1 语法"></a>3.1 语法</h4><blockquote>
+<p>语法用来定义通信双反所交换信息的格式。</p>
+</blockquote>
+<p><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20221209203336475.png" alt="image-20221209203336475" loading="lazy"></p>
+<h4 id="3-2-语义"><a href="#3-2-语义" class="headerlink" title="3.2 语义"></a>3.2 语义</h4><blockquote>
+<p>语义用来定义通信双方所要完成的操作。</p>
+</blockquote>
+<p><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20221209203325301.png" loading="lazy"></p>
+<h4 id="3-3-同步"><a href="#3-3-同步" class="headerlink" title="3.3 同步"></a>3.3 同步</h4><blockquote>
+<p>同步用来定义通信双方的时序关系。</p>
+</blockquote>
+<p><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20221209203325301.png" alt="image-20221209203325301" loading="lazy"></p>
+<h3 id="四、服务"><a href="#四、服务" class="headerlink" title="四、服务"></a>四、服务</h3><blockquote>
+<p>在协议的控制下，两个对等实体在水平方向的逻辑通信使得本层能够向上一层提供服务。</p>
+</blockquote>
+<p><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20221209203601622.png" alt="image-20221209203601622" loading="lazy"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20221209203608208.png" alt="image-20221209203608208" loading="lazy"></p>
+]]></content>
+      <categories>
+        <category>Computer Network</category>
+      </categories>
+      <tags>
+        <tag>postgraduate</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>1.6.2 计算机网络体系结构分层的必要性</title>
+    <url>/2022/12/09/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%E4%BD%93%E7%B3%BB%E7%BB%93%E6%9E%84%E5%88%86%E5%B1%82%E7%9A%84%E5%BF%85%E8%A6%81%E6%80%A7/</url>
+    <content><![CDATA[<h3 id="一、计算机网络体系结构分层的必要性"><a href="#一、计算机网络体系结构分层的必要性" class="headerlink" title="一、计算机网络体系结构分层的必要性"></a>一、计算机网络体系结构分层的必要性</h3><blockquote>
+<p>分层是计算机网络体系结构最重要的思想。</p>
+<p>“分层”可将庞大而复杂的问题转化为若干较小的局部问题，而这些较小的局部问题就比较容易研究和处理。</p>
+</blockquote>
+<p><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20221209200146750.png" alt="image-20221209200146750" loading="lazy"></p>
+<h3 id="二、物理层需要考虑的主要问题"><a href="#二、物理层需要考虑的主要问题" class="headerlink" title="二、物理层需要考虑的主要问题"></a>二、物理层需要考虑的主要问题</h3><blockquote>
+<ol>
+<li>采用什么传输媒介（物理层之下）。</li>
+<li>采用什么物理接口。</li>
+<li>采用什么信号表示比特 0和1。</li>
+</ol>
+</blockquote>
+<h3 id="三、数据链路层需要考虑的主要问题"><a href="#三、数据链路层需要考虑的主要问题" class="headerlink" title="三、数据链路层需要考虑的主要问题"></a>三、数据链路层需要考虑的主要问题</h3><blockquote>
+<ol>
+<li>标识网络中各主机（主机编址，例如MAC地址）。</li>
+<li>从比特流中区分出地址和数据（数据封装格式）。</li>
+<li>协调各主机争用总线（媒体接入控制）。</li>
+<li>以太网交换机的实现（自学习和转发帧）。</li>
+<li>检测数据是否误码（差错检测）。</li>
+<li>出现传输差错如何处理（可靠传输和不可靠传输）。</li>
+<li>接收方控制发送方注入网络的数据量（流量控制）。</li>
+</ol>
+</blockquote>
+<h3 id="四、网络层需要考虑的主要问题"><a href="#四、网络层需要考虑的主要问题" class="headerlink" title="四、网络层需要考虑的主要问题"></a>四、网络层需要考虑的主要问题</h3><blockquote>
+<ol>
+<li>标识网络和网络中的主机（网络和主机共同编址，例如IP地址）。</li>
+<li>路由器转发分组（路由选择协议，路由表和转发表）。</li>
+</ol>
+</blockquote>
+<h3 id="五、运输层需要考虑的主要问题"><a href="#五、运输层需要考虑的主要问题" class="headerlink" title="五、运输层需要考虑的主要问题"></a>五、运输层需要考虑的主要问题</h3><blockquote>
+<ol>
+<li>进程之间基于网络的通信（进程的标识，例如端口号）。</li>
+<li>出现传输差错如何处理（可靠传输和不可靠传输）。</li>
+</ol>
+</blockquote>
+<h3 id="六、应用层需要考虑的主要问题"><a href="#六、应用层需要考虑的主要问题" class="headerlink" title="六、应用层需要考虑的主要问题"></a>六、应用层需要考虑的主要问题</h3><blockquote>
+<ol>
+<li>通过应用进程间的交互来完成特定的网络应用。</li>
+<li>进行会话管理和数据表示。</li>
+</ol>
+</blockquote>
+]]></content>
+      <categories>
+        <category>Computer Network</category>
+      </categories>
+      <tags>
+        <tag>postgraduate</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>1.6.1 常见的三种计算机网络体系结构</title>
+    <url>/2022/12/09/%E5%B8%B8%E8%A7%81%E7%9A%84%E4%B8%89%E7%A7%8D%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%E4%BD%93%E7%B3%BB%E7%BB%93%E6%9E%84/</url>
+    <content><![CDATA[<h3 id="一、三种计算机网络体系结构"><a href="#一、三种计算机网络体系结构" class="headerlink" title="一、三种计算机网络体系结构"></a>一、三种计算机网络体系结构</h3><blockquote>
+<p>开放系统互连参考模型（Open Systems Interconnection Refernce Model， OSI&#x2F;RM）</p>
+<p>TCP&#x2F;IP参考模型</p>
+<p>原理参考模型</p>
+</blockquote>
+<p><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20221209195735785.png" alt="image-20221209195735785" loading="lazy"></p>
+<h3 id="二、OSI标准失败的原因"><a href="#二、OSI标准失败的原因" class="headerlink" title="二、OSI标准失败的原因"></a>二、OSI标准失败的原因</h3><p><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20221209195810443.png" alt="image-20221209195810443" loading="lazy"></p>
+<h3 id="三、TCP-x2F-IP参考模型中的协议"><a href="#三、TCP-x2F-IP参考模型中的协议" class="headerlink" title="三、TCP&#x2F;IP参考模型中的协议"></a>三、TCP&#x2F;IP参考模型中的协议</h3><p><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20221209195841301.png" alt="image-20221209195841301" loading="lazy"></p>
+]]></content>
+      <categories>
+        <category>Computer Network</category>
+      </categories>
+      <tags>
+        <tag>postgraduate</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>1.7.1 我国的计算机网络发展历程</title>
+    <url>/2022/12/09/%E6%88%91%E5%9B%BD%E7%9A%84%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%E5%8F%91%E5%B1%95%E5%8E%86%E7%A8%8B/</url>
+    <content><![CDATA[<h3 id="一、我国计算机网络的简要发展历程"><a href="#一、我国计算机网络的简要发展历程" class="headerlink" title="一、我国计算机网络的简要发展历程"></a>一、我国计算机网络的简要发展历程</h3><blockquote>
+<ol>
+<li>1980年，铁道部开始进行计算机联网实验。</li>
+<li>20世纪80年代初期，国内许多单位相继部署了大量的局域网。</li>
+<li>20世纪80年代后期，军队、公安、银行以及其他一些部门相继建立各自的专用计算机广域网。</li>
+<li>1989年11月，我国第一个公用分组交换网CNPAC建成运行。</li>
+<li>1994年4月20日，我国用64kb&#x2F;s专线正式接入因特网。从此，我国被国际上正式承认为接入因特网的国家。</li>
+<li>1994年5月，中科院高能物理研究所设立了我国的第一个万维网服务器。</li>
+<li>1994年9月，中国公用计算机互联网CHINANET正式启动。</li>
+<li>2004年2月，我国的第一个下一代互联网CNGI的主干网CERNET2试验网正式开通。</li>
+<li>目前，我国陆续建造了基于互联网技术并能够和因特网互连的多个全国范围的公用计算机网络，其中规模最大的五个是中国电信互联网CHINANET、中国联通互联网UNINET、中国移动互联网CMNET、中国和科研计算机网CERNET、中国科学技术网CSTNET。</li>
+</ol>
+</blockquote>
+<h3 id="二、推动我国互联网应用普及的典型人物和事件"><a href="#二、推动我国互联网应用普及的典型人物和事件" class="headerlink" title="二、推动我国互联网应用普及的典型人物和事件"></a>二、推动我国互联网应用普及的典型人物和事件</h3><blockquote>
+<ol>
+<li>1996年，张朝阳创立了中国第一家以风险投资资金建立的互联网公司—爱特信公司，后来发展成为中国首家大型分类查询搜索引擎公司—搜狐公司（Sohu）。搜狐网站（Sohu.com）目前是国内知名的综合门户网站。</li>
+<li>1997年，丁磊创立了网易公司（NetEase），推出了中国第一家中文全文搜索引擎。网易公司还开发了163和126等超大容量免费电子邮箱。网易网站（163.com）目前也是国内知名的综合门户网站。</li>
+<li>1998年，王志东创立了新浪网站（Sina.com），该网站目前已成为全球最大的中文综合门户网站。新浪微博是全球使用最多的微博之一。</li>
+<li>1998年，马化腾和张志东创立了腾讯公司（Tencent）。腾讯公司的即时通信软件QQ目前已经发展成为一款集语音、视频、音乐、图片、短信于一体的网络社交工具，成为几乎所有网民都在电脑和智能手机中安装的软件，腾讯公司也因此成为中国最大的互联网综合服务提供商之一。</li>
+<li>1999年，马云创立了阿里巴巴网站（Alibaba.com），它是一个企业对企业的网上贸易市场平台。</li>
+<li>2000年，李彦宏和徐勇创立了百度网站（Baidu.com），现在已成为全球最大的中文搜索引擎。</li>
+<li>2003年，马云创立了淘宝网（Taobao.com），它是一个个人网上贸易市场平台。</li>
+<li>2004年，阿里巴巴集团创立了第三方支付平台—支付宝（Alipay.com），为中国电子商务提供了简单、安全、快捷的在线支付手段。</li>
+<li>2011年，腾讯推出了专门供智能手机使用的即时通信软件“微信”（WeChat）。该软件是在著名的电子邮件客户端软件Foxmail的作者张小龙的领导下成功研发的。目前几乎所有的智能手机用户都在使用微信。装有微信软件的智能手机，已从简单的社交工具演变成一个具有支付能力的全能钱包。</li>
+</ol>
+</blockquote>
+]]></content>
+      <categories>
+        <category>Computer Network</category>
+      </categories>
+      <tags>
+        <tag>postgraduate</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>1.6.3 计算机网络体系结构分层思想举例</title>
+    <url>/2022/12/09/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%E4%BD%93%E7%B3%BB%E7%BB%93%E6%9E%84%E5%88%86%E5%B1%82%E6%80%9D%E6%83%B3%E4%B8%BE%E4%BE%8B/</url>
+    <content><![CDATA[<h3 id="一、计算机网络体系结构分层思想举例"><a href="#一、计算机网络体系结构分层思想举例" class="headerlink" title="一、计算机网络体系结构分层思想举例"></a>一、计算机网络体系结构分层思想举例</h3><blockquote>
+<p>用户在主机中使用游览器访问Web服务器的过程如下：</p>
+<ol>
+<li>用户在游览器地址栏输入Web服务器的域名。</li>
+<li>主机向Web服务器发送一个请求报文。</li>
+<li>Web服务器收到请求报文后，执行相应的操作，然后给主机发送响应报文。</li>
+<li>主机收到响应报文后，由游览器负责解析和渲染显示。</li>
+</ol>
+</blockquote>
+<p><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20221209200832736.png" alt="image-20221209200832736" loading="lazy"></p>
+<h3 id="二、主机对数据包的处理过程"><a href="#二、主机对数据包的处理过程" class="headerlink" title="二、主机对数据包的处理过程"></a>二、主机对数据包的处理过程</h3><blockquote>
+<p>主机对数据包的处理过程：</p>
+<ol>
+<li><strong>应用层</strong>：根据HTTP协议的规定，构建一个HTTP请求报文，用来请求Web服务器执行相应的操作。应用层将构建好的HTTP请求报文向下交付给运输层。</li>
+<li><strong>运输层</strong>：给HTTP请求报文添加一个TCP首部，将其封装成TCP报文段。TCP首部的主要作用是区分应用进程和实现可靠传输。运输层将封装好的TCP报文段向下交付给网络层。</li>
+<li><strong>网络层</strong>：为TCP报文段添加一个IP首部，将其封装成IP数据报。IP首部的主要作用是IP寻址和路由。网络层将封装好的IP数据报向下交付给数据链路层。</li>
+<li><strong>数据链路层</strong>：为IP数据报添加一个首部和一个尾部，将其封装成帧。帧首部和尾部的主要作用是MAC寻址和帧校验。数据链路层将封装好的帧向下交付给物理层。</li>
+<li><strong>物理层</strong>：并不认识帧的结构，仅仅将其看作比特流，以便将比特流转换成相应的电信号进行发送。对于以太网，物理层还会在比特流前添加前导码，目的是使接收方的时钟同步，并做好接收准备。</li>
+</ol>
+</blockquote>
+<p><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20221209201440530.png" alt="image-20221209201440530" loading="lazy"></p>
+<h3 id="三、路由器对数据包的处理过程"><a href="#三、路由器对数据包的处理过程" class="headerlink" title="三、路由器对数据包的处理过程"></a>三、路由器对数据包的处理过程</h3><blockquote>
+<p>路由器收到数据包后对其进行处理转发的过程：</p>
+<ol>
+<li><p>（接收口的）物理层：将收到的电信号转换成比特流，并去掉前导码，然后将帧向上交付给数据链路层。</p>
+</li>
+<li><p>（接收口的）数据链路层：去掉帧的首部和尾部后，将IP数据报向上交付给网络层。</p>
+</li>
+<li><p>网络层：网络层从IP数据报的首部中提取出目的IP地址，根据目的IP地址查找自己的转发表，以便决定从哪个接口转发该IP数据报。与此同时，还要对首部中的某些字段值（例如生存时间TTL字段的值）进行相应的修改，然后将该IP数据报向下交付给数据链路层。</p>
+</li>
+<li><p>（转发口的）数据链路层：为IP数据报添加一个首部和一个尾部，将其封装成帧，然后将帧向下交付给物理层。</p>
+</li>
+<li><p>（转发口的）物理层：将帧看作比特流，给其添加前导码后转变成相应的电信号</p>
+<p>发送出去。</p>
+</li>
+</ol>
+</blockquote>
+<p><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20221209202207626.png" alt="image-20221209202207626" loading="lazy"></p>
+<h3 id="四、Web服务器对数据包的处理过程"><a href="#四、Web服务器对数据包的处理过程" class="headerlink" title="四、Web服务器对数据包的处理过程"></a>四、Web服务器对数据包的处理过程</h3><blockquote>
+<p>Web服务器收到数据包后，按网络体系结构自下而上的顺序对其进行逐层解封，解封出HTTP请求报文。</p>
+</blockquote>
+<p><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20221209202338415.png" alt="image-20221209202338415" loading="lazy"></p>
+<h3 id="五、Web服务器给主机发回HTTP响应报文的过程"><a href="#五、Web服务器给主机发回HTTP响应报文的过程" class="headerlink" title="五、Web服务器给主机发回HTTP响应报文的过程"></a>五、Web服务器给主机发回HTTP响应报文的过程</h3><blockquote>
+<p>Web服务器的应用层收到HTTP请求报文后执行相应的操作，然后给主机发送包含有浏览器请求内容的HTTP响应报文。与浏览器发送HTTP请求报文的过程类似，HTTP响应报文需要在Web服务器层层封装后才能发送。数据包经过路由器的转发到达主机。主机对收到的数据包按网络体系结构自下而上的顺序逐层解封，解封出HTTP响应报文。</p>
+</blockquote>
+<p><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20221209202508087.png" alt="image-20221209202508087" loading="lazy"></p>
 ]]></content>
       <categories>
         <category>Computer Network</category>
