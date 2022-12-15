@@ -6,7 +6,7 @@
   <link href="https://warbin-hub.github.io/atom.xml" rel="self"/>
   
   <link href="https://warbin-hub.github.io/"/>
-  <updated>2022-12-15T13:39:43.502Z</updated>
+  <updated>2022-12-15T13:50:48.419Z</updated>
   <id>https://warbin-hub.github.io/</id>
   
   <author>
@@ -21,16 +21,14 @@
     <link href="https://warbin-hub.github.io/2022/12/15/%E8%93%9D%E6%A1%A5%E6%9D%AFEclipse%E4%B8%AA%E4%BA%BA%E8%AE%BE%E7%BD%AE/"/>
     <id>https://warbin-hub.github.io/2022/12/15/%E8%93%9D%E6%A1%A5%E6%9D%AFEclipse%E4%B8%AA%E4%BA%BA%E8%AE%BE%E7%BD%AE/</id>
     <published>2022-12-15T13:37:18.000Z</published>
-    <updated>2022-12-15T13:39:43.502Z</updated>
+    <updated>2022-12-15T13:50:48.419Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;p&gt;###1、自动补全&lt;/p&gt;
-&lt;p&gt;编写代码时，自动提示完善代码。比如键盘输入‘s’,提示String等选项&lt;/p&gt;
-&lt;p&gt;操作步骤：window -&amp;gt;Perferences -&amp;gt;Java -&amp;gt; Editor -&amp;gt; Content</summary>
+    <summary type="html">&lt;h3 id=&quot;1、自动补全&quot;&gt;&lt;a href=&quot;#1、自动补全&quot; class=&quot;headerlink&quot;</summary>
         
       
     

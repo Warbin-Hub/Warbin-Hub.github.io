@@ -8358,8 +8358,7 @@
   <entry>
     <title>蓝桥杯Eclipse个人设置</title>
     <url>/2022/12/15/%E8%93%9D%E6%A1%A5%E6%9D%AFEclipse%E4%B8%AA%E4%BA%BA%E8%AE%BE%E7%BD%AE/</url>
-    <content><![CDATA[<p>###1、自动补全</p>
-<p>编写代码时，自动提示完善代码。比如键盘输入‘s’,提示String等选项</p>
+    <content><![CDATA[<h3 id="1、自动补全"><a href="#1、自动补全" class="headerlink" title="1、自动补全"></a>1、自动补全</h3><p>编写代码时，自动提示完善代码。比如键盘输入‘s’,提示String等选项</p>
 <p>操作步骤：window -&gt;Perferences -&gt;Java -&gt; Editor -&gt; Content Assist</p>
 <p>Auto activation triggers for java 参数 填写<code>**.()&#123;&#125;abcdefghijklmnopqrstuvwxyz</code></p>
 <p><img src="https://cdn.jsdelivr.net/gh/Warbin-Hub/myblog/image-20221215212531534.png" alt="image-20221215212531534" loading="lazy"></p>
