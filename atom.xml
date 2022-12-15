@@ -6,7 +6,7 @@
   <link href="https://warbin-hub.github.io/atom.xml" rel="self"/>
   
   <link href="https://warbin-hub.github.io/"/>
-  <updated>2022-12-12T15:42:34.050Z</updated>
+  <updated>2022-12-15T13:34:02.970Z</updated>
   <id>https://warbin-hub.github.io/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>蓝桥杯Eclipse个人设置</title>
+    <link href="https://warbin-hub.github.io/2022/12/15/%E8%93%9D%E6%A1%A5%E6%9D%AFEclipse%E4%B8%AA%E4%BA%BA%E8%AE%BE%E7%BD%AE/"/>
+    <id>https://warbin-hub.github.io/2022/12/15/%E8%93%9D%E6%A1%A5%E6%9D%AFEclipse%E4%B8%AA%E4%BA%BA%E8%AE%BE%E7%BD%AE/</id>
+    <published>2022-12-15T13:37:18.000Z</published>
+    <updated>2022-12-15T13:34:02.970Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;###1、自动补全&lt;/p&gt;
+&lt;p&gt;编写代码时，自动提示完善代码。比如键盘输入‘s’,提示String等选项&lt;/p&gt;
+&lt;p&gt;操作步骤：window -&amp;gt;Perferences -&amp;gt;Java -&amp;gt; Editor -&amp;gt; Content</summary>
+        
+      
+    
+    
+    
+    <category term="catalogue" scheme="https://warbin-hub.github.io/categories/catalogue/"/>
+    
+    
+    <category term="Blue Bridge Cup" scheme="https://warbin-hub.github.io/tags/Blue-Bridge-Cup/"/>
+    
+  </entry>
   
   <entry>
     <title>Java数据结构-哈希表</title>
@@ -54,31 +81,6 @@
         
         
     <summary type="html">&lt;h3 id=&quot;一、排序算法的介绍&quot;&gt;&lt;a href=&quot;#一、排序算法的介绍&quot; class=&quot;headerlink&quot; title=&quot;一、排序算法的介绍&quot;&gt;&lt;/a&gt;一、排序算法的介绍&lt;/h3&gt;&lt;h3 id=&quot;二、算法的时间复杂的&quot;&gt;&lt;a href=&quot;#二、算法的时间复杂的&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="Java Data Structure" scheme="https://warbin-hub.github.io/categories/Java-Data-Structure/"/>
-    
-    
-    <category term="postgraduate" scheme="https://warbin-hub.github.io/tags/postgraduate/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Java数据结构-数据结构和算法的介绍</title>
-    <link href="https://warbin-hub.github.io/2022/12/12/Java%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84-%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E5%92%8C%E7%AE%97%E6%B3%95%E7%9A%84%E4%BB%8B%E7%BB%8D/"/>
-    <id>https://warbin-hub.github.io/2022/12/12/Java%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84-%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E5%92%8C%E7%AE%97%E6%B3%95%E7%9A%84%E4%BB%8B%E7%BB%8D/</id>
-    <published>2022-12-12T14:57:29.000Z</published>
-    <updated>2022-12-12T15:14:12.539Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h3 id=&quot;一、实际编程中遇到的问题&quot;&gt;&lt;a href=&quot;#一、实际编程中遇到的问题&quot; class=&quot;headerlink&quot;</summary>
         
       
     
@@ -171,14 +173,14 @@
     <link href="https://warbin-hub.github.io/2022/12/12/Java%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84-%E7%A8%80%E7%96%8F%E6%95%B0%E7%BB%84%E5%92%8C%E9%98%9F%E5%88%97/"/>
     <id>https://warbin-hub.github.io/2022/12/12/Java%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84-%E7%A8%80%E7%96%8F%E6%95%B0%E7%BB%84%E5%92%8C%E9%98%9F%E5%88%97/</id>
     <published>2022-12-12T14:57:29.000Z</published>
-    <updated>2022-12-12T15:17:40.093Z</updated>
+    <updated>2022-12-15T07:43:27.038Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h3 id=&quot;一、稀疏sparsearray数组&quot;&gt;&lt;a href=&quot;#一、稀疏sparsearray数组&quot; class=&quot;headerlink&quot;</summary>
+    <summary type="html">&lt;h3 id=&quot;一、稀疏sparsearray数组&quot;&gt;&lt;a href=&quot;#一、稀疏sparsearray数组&quot; class=&quot;headerlink&quot; title=&quot;一、稀疏sparsearray数组&quot;&gt;&lt;/a&gt;一、稀疏sparsearray数组&lt;/h3&gt;&lt;h4</summary>
         
       
     
